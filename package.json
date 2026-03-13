@@ -1,0 +1,11 @@
+{
+  "name": "digitalaccessibility",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint:html": "html-validate \"**/*.html\""
+  },
+  "devDependencies": {
+    "html-validate": "^10.11.1"
+  }
+}
