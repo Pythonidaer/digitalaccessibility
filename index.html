@@ -39,7 +39,7 @@
                 <li>
                     Develop documentation, guidelines, and other resources
                     <ul>
-                        <li>i.e., checklists, short guides - on key accessibility tasks</li>
+                        <li>i.e., checklists, short guides on key accessibility tasks</li>
                         <li>Record quick tutorials or live demos for remote settings</li>
                         <li>So that others follow best practices long-term</li>
                         <li>This ensures knowledge transfer after contract</li>
@@ -64,8 +64,8 @@
                     <ul>
                         <li>Keyboard navigation</li>
                         <li>Color Contrast</li>
-                        <li>Image alt text</li>
-                        <li>Logical tab focus order (i.e., HTML semantics)
+                        <li>Image alt text (even in PDFs!)</li>
+                        <li>Logical tab focus order (i.e., HTML semantics, even on apps!)
                             <ul>
                                 <li>Don't forget to check for interactive elements</li>
                                 <li>Proper reading order</li>
@@ -73,10 +73,15 @@
                             </ul>
                         </li>
                         <li>Tagged elements (i.e., PDFs)</li>
-                        <li>Labeled form fields</li>
-                        <li>Focus states (i.e., outline)</li>
-                        <li>Aria-Roles (supplements semantic HTML's limitations)</li>
+                        <li>Labeled form fields (fix missing labels on form fields)</li>
+                        <li>Focus states (e.g., outline)</li>
+                        <li>Aria-Roles (supplements semantic HTML's limitations)
+                            <ul>
+                                <li>Ensure their usage is appropriate</li>
+                            </ul>
+                        </li>
                         <li>Error messages (ensure these are announced by assistive tech)</li>
+                        <li>Acrobat forms</li>
                     </ul>
                 </li>
             </ul>
@@ -96,6 +101,26 @@
                     </ul>
                 </li>
                 <li>Legal and ethical considerations</li>
+                <li>What's one responsibility you'd have that involves directly supporting others&mdash;like faculty, staff, or developers&mdash;rather than just fixing issues yourself?
+                    <ul>
+                        <li>Providing accessibility consultation
+                            <ul>
+                                <li>Communicate across teams</li>
+                                <li>Educate teams</li>
+                                <li>Create documentation</li>
+                            </ul>
+                        </li>
+                        <li>Jump on phone calls with teams and individuals</li>
+                        <li>(Sometimes) work odd hours just in case any critical accessibility issues surface</li>
+                    </ul>
+                </li>
+                <li>What types of reports or deliverables migt you be expected to produce regularly to keep stakeholders informed on accessibility progress?
+                    <ul>
+                        <li>You'd likely produce accessibility audit reports, summarizing issues found, and remidiations</li>
+                        <li>You might also deliver progress updates, training documentation, and guidelines</li>
+                        <li><strong>These ensure stakeholders are kept informed on accessibility improvements and next steps</strong></li>
+                    </ul>
+                </li>
             </ul>
         </section>
 
@@ -113,16 +138,21 @@
             <ul>
                 <li>Keyboard navigation, screen readers like NVDA or JAWS, or built-in accessibility tools.</li>
                 <li>In both cases &gt; check if all interactive elements are properly labeled, focusable, and properly ordered</li>
+                <li>Microsoft 365 accessibility features (to run checks and tag content)</li>
             </ul>
-            <h3>Websites</h3>
+            <h3>Websites (to scan for issues)</h3>
             <ul>
-                <li>Lighthouse (Chrome DevTools: checks for Accessibility, SEO, Performance, etc.)</li>
+                <li>Lighthouse (Chrome DevTools: checks for Accessibility, SEO, Performance, and more.)</li>
                 <li>Axe (Chrome Extension: available in Chrome Inspector, with a solid free tier)</li>
                 <li>WAVE (comparable to Axe, but likely has unique features)</li>
             </ul>
             <h3>PDFs</h3>
             <ul>
                 <li>Acrobat Accessibility Checker (Available in Free, and more robust in Pro)</li>
+            </ul>
+            <h3>Videos</h3>
+            <ul>
+                <li><span class="underline">TO DO:</span> find captioning tools, automated caption generating, manual verification, etc.</li>
             </ul>
         </section>
 
@@ -215,8 +245,16 @@
                 </li>
                 <li>Create a quiz component</li>
                 <li>Create downloadable checklists</li>
-                <li>Create a glossary</li>
-                <li>Data visualization on departments using P.O.U.R.</li>
+                <li>Create a glossary
+                    <ul>
+                        <li>Could add tags like a blog, to filter terms by department</li>
+                    </ul>
+                </li>
+                <li>Data visualization on departments using P.O.U.R.
+                    <ul>
+                        <li>The idea here would be to segment what's most relevant to depts.</li>
+                    </ul>
+                </li>
                 <li>Site-wide search feature</li>
                 <li>Build templates for documentation (frameworks)
                     <p>Examples include:</p>
@@ -237,12 +275,27 @@
 
         <section aria-labelledby="h2-Frameworks">
             <h2 id="h2-Frameworks">Frameworks</h2>
+            <h3>Same for guidelines, online resources, progress reports, and documentation</h3>
             <ul>
                 <li>Integrating accessibility into agile
                     <ul>
                         <li>Accessibility user stories or Acceptance Criteria</li>
                     </ul>
                 </li>
+                <li>Accessibility reports
+                    <ul>
+                        <li>W3C org provides sample accessibility audit templates</li>
+                    </ul>
+                </li>
+                <li>General Project Management templates
+                    <ul>
+                        <li>Status summaries</li>
+                        <li>Key issues</li>
+                        <li>Next steps</li>
+                        <li>Timelines</li>
+                    </ul>
+                </li>
+                <li>Government Digital Service (GDS) or accessibility consultancies</li>
             </ul>
         </section>
 
@@ -254,7 +307,7 @@
                         <li>Understanding the current workflow</li>
                         <li>Asking where accessibility fits in from the start</li>
                         <li>Identifying gaps</li>
-                        <li>Collaborating with teams to embed accessibility checks - as <span class="underline">early</span> as possible</li>
+                        <li>Collaborating with teams to embed accessibility checks&mdash;as <span class="underline">early</span> as possible</li>
                         <li><em>Use guidelines, but apply them by asking the right questions</em></li>
                     </ul>
                 </li>
@@ -309,6 +362,7 @@
                         <li>Implement by setting up checkpoints &amp; tracking sessions</li>
                     </ul>
                 </li>
+                <li>Usage of scanning tools and manual fixes across each content type</li>
             </ul>
         </section>
 
@@ -332,7 +386,7 @@
                 <li>Applications (Desktop, iOS, Android)</li>
                 <li>Documents (PDFs, .docs, etc.)</li>
                 <li>Presentations (i.e., PowerPoint)</li>
-                <li>Video (i.e., captions)</li>
+                <li>Video (e.g., ensuring captions are accurate)</li>
             </ul>
         </section>
 
@@ -340,7 +394,6 @@
             <h2 id="h2-miscellanaeous">Miscellanaeous</h2>
             <ul>
                 <li>Section 508 Compliance</li>
-                <li>Why hire me? I have a solid technical foundation (developer background)</li>
                 <li>
                     <dl>
                         <dt><strong>Remediation</strong></dt>
@@ -361,7 +414,25 @@
                 <li>Great for practical demos:
                     <ul>
                         <li>PowerPoints (slides)</li>
-                        <li>Short videos (i.e., "how to fix a PDF tag")</li>
+                        <li>Short videos (e.g., "how to fix a PDF tag")</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="h2-interview-prep">
+            <h2 id="h2-interview-prep">Interview Prep</h2>
+            <ul>
+                <li>Reference my solid technical foundation
+                    <ul>
+                      <li>Focus on my developer background (a11y-focused at Boston Children's Hospital)</li>
+                      <li>Frontend-experience: semantic HTML, ARIA, color contrast</li>
+                      <li>Frame the above as an expanding strength</li>
+                    </ul>
+                </li>
+                <li>Emphasize how I already audit interfaces
+                    <ul>
+                        <li>Now apply that mindset to documents and processes</li>
                     </ul>
                 </li>
             </ul>
@@ -376,6 +447,14 @@
                 <li>What does tagging content consist of? What does it mean?</li>
                 <li>How do you add descriptions in adobe/pdfs? What does that mean?</li>
                 <li>How do you create guidelines/documents to train on?</li>
+                <li>Progress reports? Structure?
+                    <ul>
+                        <li>How do I write good documentation with a certain structure?</li>
+                        <li>Once you have a structure, it's about adapting it to your needs.</li>
+                        <li>This is where context-specific situations become relevant</li>
+                        <li>This is also why I want to build a template generator tool</li>
+                    </ul>
+                </li>
             </ul>
         </section>
     </main>

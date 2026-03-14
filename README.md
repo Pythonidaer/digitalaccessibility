@@ -180,5 +180,7 @@ Real-world digital accessibility work typically spans all of these contexts: web
 - **html-validate documentation and rules**:  
   `https://html-validate.org/`  
   (rule reference at `https://html-validate.org/rules/`).
+- **differences between WCAG versions**:
+  `https://www.audioeye.com/lp/wcag-web-compliance/`
 
 
