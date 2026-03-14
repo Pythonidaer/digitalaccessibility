@@ -182,5 +182,7 @@ Real-world digital accessibility work typically spans all of these contexts: web
   (rule reference at `https://html-validate.org/rules/`).
 - **differences between WCAG versions**:
   `https://www.audioeye.com/lp/wcag-web-compliance/`
+- **W3C Accessibility Audit Repote Template**:
+  `https://www.w3.org/WAI/test-evaluate/report-template/`
 
 

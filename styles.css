@@ -4,12 +4,22 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 100%;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 0 16px;
+}
+
 h3 {
     font-size: 1rem;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -27,7 +37,7 @@ h3 {
 
 .header-content h1 {
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -36,16 +46,16 @@ h3 {
 }
 
 .container section {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
-main section {
+/* main section {
     border-bottom: 1px solid black;
-}
+} */
 
 .container section > ul,
 .container section > ol {
-    margin-bottom: 10px;
+    margin-bottom: 24px;
 }
 
 .container section ul,
@@ -55,4 +65,31 @@ main section {
 
 .underline {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 932px) {
+    body {
+        font-size: 1.125rem /* 18px */
+    }
+
+    .container.header {
+        padding-top: 30px;
+    }
+
+    .header-content h1 {
+        font-size: 1.2rem;
+    }
+
+    .header-content h2 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    main section h2 {
+        font-size: 1.4rem;
+    }
+
+    main sextion h3 {
+        font-size: 1.2rem;
+    }
 }
