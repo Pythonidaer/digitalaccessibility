@@ -1,0 +1,65 @@
+/* W3C WAI-inspired typography
+ *
+ * Based on: "Designing for Web Accessibility" – W3C WAI
+ * https://www.w3.org/WAI/tips/designing/
+ *
+ * That page focuses on:
+ * - Clear headings and spacing to group related content
+ * - Readable line lengths and line spacing
+ * - Designs that work at different viewport sizes
+ *
+ * It does not prescribe exact font sizes, so this file encodes
+ * a conservative, WCAG-friendly set of choices:
+ * - Body: 16px desktop, 18px on smaller screens
+ * - Line-height: slightly looser (1.6) for dense content
+ * - Headings: clear size steps, with spacing to create groups
+ */
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 1rem;      /* ~16px */
+  line-height: 1.6;     /* looser for readability */
+}
+
+.header-content h1 {
+  text-transform: uppercase;
+  font-size: 2.125rem;  /* ≈34px: strong page title */
+  text-align: center;
+}
+
+main section h2 {
+  font-size: 1.5rem;    /* ≈24px */
+  line-height: 1.3;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+h3,
+main section h3 {
+  font-size: 1.25rem;   /* ≈20px */
+  line-height: 1.4;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 932px) {
+  body {
+    font-size: 1.125rem;  /* ~18px on smaller screens */
+  }
+
+  .header-content h1 {
+    font-size: 1.75rem;   /* ≈28px */
+  }
+
+  main section h2 {
+    font-size: 1.4rem;    /* ≈23px */
+  }
+
+  main section h3 {
+    font-size: 1.2rem;    /* ≈19px */
+  }
+}
+

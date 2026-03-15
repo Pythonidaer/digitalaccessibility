@@ -184,5 +184,14 @@ Real-world digital accessibility work typically spans all of these contexts: web
   `https://www.audioeye.com/lp/wcag-web-compliance/`
 - **W3C Accessibility Audit Repote Template**:
   `https://www.w3.org/WAI/test-evaluate/report-template/`
+ - **W3C WAI – Designing for Web Accessibility**:  
+   `https://www.w3.org/WAI/tips/designing/`  
+   High-level W3C guidance on accessible UI and visual design (contrast, spacing, headings, navigation, feedback) with direct ties to WCAG requirements. \[[source](https://www.w3.org/WAI/tips/designing/)\]
+ - **GOV.UK / DfE Design System – Typography**:  
+   `https://design.education.gov.uk/design-system/styles/typography`  
+   Opinionated, accessibility-friendly typography system (font sizes, line lengths, hierarchy) used across UK government services; a practical reference for readable, accessible text. \[[source](https://design.education.gov.uk/design-system/styles/typography)\]
+ - **Material Design 3 – Accessibility overview**:  
+   `https://m3.material.io/foundations/overview/principles`  
+   Google’s high-level accessibility principles in Material Design 3, explaining how to bake accessibility into layout, color, components, and interactions across platforms. \[[source](https://m3.material.io/foundations/overview/principles)\]
 
 

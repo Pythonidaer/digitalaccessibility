@@ -4,23 +4,26 @@
     box-sizing: border-box;
 }
 
-html {
+/* html {
     font-size: 100%;
-}
+} */
 
 body {
-    font-size: 1rem;
-    line-height: 1.4;
+    /* font-size: 1rem; */
+    /* line-height: 1.4; */
     padding: 0 16px;
 }
 
 h3 {
-    font-size: 1rem;
+    /* font-size: 1.125rem; */
+    /* line-height: 1.3; */
+    margin-bottom: 0.4rem;
 }
 
 .container {
     max-width: 700px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 
 .container.header {
@@ -36,22 +39,27 @@ h3 {
 }
 
 .header-content h1 {
-    text-transform: uppercase;
-    font-size: 2rem;
+    /* text-transform: uppercase; */
+    /* font-size: 2rem; */
     text-align: center;
-}
-
-.header-content h2 {
-    margin-bottom: 6px;
+    /* margin-bottom: 0.5rem; */
 }
 
 .container section {
     margin-bottom: 24px;
 }
 
-/* main section {
-    border-bottom: 1px solid black;
-} */
+main section h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    /* line-height: 1.3; */
+}
+
+main section h3 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.4rem;
+    /* line-height: 1.3; */
+}
 
 .container section > ul,
 .container section > ol {
@@ -68,28 +76,24 @@ h3 {
 }
 
 @media screen and (max-width: 932px) {
-    body {
-        font-size: 1.125rem /* 18px */
-    }
+    /* body {
+        font-size: 1.125rem 
+    } */
 
     .container.header {
         padding-top: 30px;
     }
 
-    .header-content h1 {
+    /* .header-content h1 {
         font-size: 1.2rem;
-    }
+    } */
 
-    .header-content h2 {
-        font-size: 1rem;
-        margin-bottom: 10px;
-    }
 
-    main section h2 {
+    /* main section h2 {
         font-size: 1.4rem;
     }
 
-    main sextion h3 {
+    main section h3 {
         font-size: 1.2rem;
-    }
+    } */
 }

@@ -1,0 +1,70 @@
+/* Apple Human Interface Guidelines-inspired typography
+ *
+ * Based conceptually on:
+ * - Accessibility: https://developer.apple.com/design/human-interface-guidelines/accessibility
+ * - Typography: https://developer.apple.com/design/human-interface-guidelines/typography
+ *
+ * Apple HIG emphasizes:
+ * - Comfortable reading sizes (e.g., iOS body text ~17pt)
+ * - Clear hierarchy and ample line spacing
+ * - Respecting user text size preferences (Dynamic Type)
+ *
+ * On the web, we can’t use Dynamic Type directly, but we can:
+ * - Use system fonts
+ * - Choose sizes similar to iOS body text
+ * - Keep headings clearly differentiated but not huge
+ */
+
+html {
+  font-size: 100%;
+}
+
+body {
+  /* Approximate iOS body text (17pt/px-ish) */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  font-size: 1.0625rem;  /* ≈17px */
+  line-height: 1.6;
+}
+
+.header-content h1 {
+  /* App or screen title-style */
+  text-transform: uppercase;
+  font-size: 1.875rem;    /* ≈30px */
+  line-height: 1.2;
+  text-align: center;
+}
+
+main section h2 {
+  font-size: 1.5rem;      /* ≈24px */
+  line-height: 1.3;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+h3,
+main section h3 {
+  font-size: 1.25rem;     /* ≈20px */
+  line-height: 1.4;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 932px) {
+  /* Slight bump for smaller devices, mirroring Dynamic Type spirit */
+  body {
+    font-size: 1.125rem;    /* ≈18px */
+  }
+
+  .header-content h1 {
+    font-size: 1.75rem;     /* ≈28px */
+  }
+
+  main section h2 {
+    font-size: 1.375rem;    /* ≈22px */
+  }
+
+  main section h3 {
+    font-size: 1.1875rem;   /* ≈19px */
+  }
+}
+

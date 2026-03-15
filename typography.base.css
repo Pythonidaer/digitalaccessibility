@@ -1,0 +1,65 @@
+/* Base typography for this project.
+ *
+ * This file represents your current, hand-tuned choices:
+ * - Body at 16px on desktop, 18px on smaller screens
+ * - Modest line-height for readability
+ * - Clear hierarchy between h1 / h2 / h3
+ *
+ * Other typography files (typography.w3c.css, typography.govuk.css, etc.)
+ * will override these values so you can compare different systems.
+ */
+
+html {
+  /* Keep 1rem ≈ 16px and respect user zoom / OS settings */
+  font-size: 100%;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.header-content h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+}
+
+main section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 1.125rem;
+  line-height: 1.3;
+  margin-bottom: 0.4rem;
+}
+
+main section h3 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.3;
+}
+
+@media screen and (max-width: 932px) {
+  body {
+    /* Slightly larger body text on smaller screens (~18px) */
+    font-size: 1.125rem;
+  }
+
+  .header-content h1 {
+    /* Smaller, but still clearly larger than body text */
+    font-size: 1.5rem;
+  }
+
+  main section h2 {
+    font-size: 1.4rem;
+  }
+
+  main section h3 {
+    font-size: 1.2rem;
+  }
+}
+

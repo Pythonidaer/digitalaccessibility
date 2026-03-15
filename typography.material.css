@@ -1,0 +1,67 @@
+/* Material Design 3-inspired typography
+ *
+ * Based on: Material Design 3 – Accessibility & Foundations
+ * https://m3.material.io/foundations/overview/principles
+ *
+ * Material Design 3 defines a type scale (e.g., body, title, headline)
+ * and expects:
+ * - Clear hierarchy between display/headline/title/body/label
+ * - Comfortable line-height and spacing, especially for dense UIs
+ *
+ * This file approximates a subset of that scale for your page:
+ * - Body ~16px with comfortable line-height
+ * - h1 roughly like "headline medium"
+ * - h2 like "title large"
+ * - h3 like "title medium"
+ */
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 1rem;      /* ~16px */
+  line-height: 1.6;     /* Material favours generous line-height */
+}
+
+.header-content h1 {
+  /* Approximate a headline style */
+  text-transform: uppercase;
+  font-size: 2.125rem;  /* ≈34px */
+  line-height: 1.2;
+  text-align: center;
+}
+
+main section h2 {
+  font-size: 1.5rem;    /* ≈24px */
+  line-height: 1.35;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+h3,
+main section h3 {
+  font-size: 1.25rem;   /* ≈20px */
+  line-height: 1.4;
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 932px) {
+  body {
+    font-size: 1.0625rem;  /* ≈17px */
+  }
+
+  .header-content h1 {
+    font-size: 1.75rem;    /* ≈28px */
+  }
+
+  main section h2 {
+    font-size: 1.375rem;   /* ≈22px */
+  }
+
+  main section h3 {
+    font-size: 1.1875rem;  /* ≈19px */
+  }
+}
+
