@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Accessibility</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="newer-styles.css">
     <!-- <link rel="stylesheet" href="typography.base.css"> -->
     <!-- <link rel="stylesheet" href="typography.w3c.css"> -->
     <!-- <link rel="stylesheet" href="typography.material.css"> -->
@@ -12,12 +13,46 @@
     <!-- <link rel="stylesheet" href="typography.govuk.css"> -->
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="site-header__inner menu-container">
+            <a href="/" class="site-logo" aria-label="Digital Accessibility home">
+            <span>Digital</span>
+            <span>Accessibility</span>
+            </a>
+
+            <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-navigation"
+            aria-label="Open main menu"
+            >
+            <span class="nav-toggle__text">Menu</span>
+            </button>
+
+            <nav
+            id="primary-navigation"
+            class="primary-nav"
+            aria-label="Primary navigation"
+            >
+            <ul class="primary-nav__list">
+                <li class="primary-nav__item"><a href="#h2-overview">Foundations</a></li>
+                <li class="primary-nav__item"><a href="#h2-tasks">Practice</a></li>
+                <li class="primary-nav__item"><a href="#h2-platform-tools">Tools</a></li>
+                <li class="primary-nav__item"><a href="#h2-skills">Learning</a></li>
+                <li class="primary-nav__item"><a href="#h2-site-ideas">Resources</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
     <section class="container header">
         <div class="header-content">
             <h1>Digital Accessibility Specialist</h1>
         </div>
     </section>
-    <main class="container">
+    <main id="main-content" class="container">
         <section aria-labelledby="h2-overview">
             <h2 id="h2-overview">Accessibility Overview</h2>
             <ul>
@@ -536,5 +571,6 @@
         </section>
     </main>
     <!-- <script src="line-length-checker.js"></script> -->
+     <script src="navigation.js"></script>
   </body>
 </html>

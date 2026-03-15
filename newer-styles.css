@@ -1,0 +1,200 @@
+/* =========================
+   Base helpers
+   ========================= */
+
+   *,
+   *::before,
+   *::after {
+     box-sizing: border-box;
+   }
+   
+   :root {
+     --header-bg: #111111;
+     --header-text: #ffffff;
+     --header-border: #2a2a2a;
+     --link-hover-bg: #1f1f1f;
+     --focus-color: #ffd54f;
+     --max-width: 72rem;
+   }
+   
+   body {
+     margin: 0;
+   }
+   
+   .menu-container {
+     width: min(100% - 2rem, var(--max-width));
+     margin-inline: auto;
+   }
+   
+   /* =========================
+      Skip link
+      ========================= */
+   
+   .skip-link {
+     position: absolute;
+     top: 0.5rem;
+     left: 0.5rem;
+     z-index: 1000;
+     padding: 0.75rem 1rem;
+     background: #ffffff;
+     color: #000000;
+     text-decoration: none;
+     border: 2px solid #000000;
+     transform: translateY(-150%);
+   }
+   
+   .skip-link:focus {
+     transform: translateY(0);
+   }
+   
+   /* =========================
+      Header
+      ========================= */
+
+    .site-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* vertical centering */
+        align-items: flex-start; /* keeps text left aligned */
+        height: 100%;
+    }
+
+    .site-logo span {
+        margin: 0;
+        line-height: 1.1;
+      }
+   
+   .site-header {
+     background: var(--header-bg);
+     color: var(--header-text);
+     border-bottom: 1px solid var(--header-border);
+   }
+   
+   .site-header__inner {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 1rem;
+     min-height: 4.5rem;
+     padding-block: 0.75rem;
+   }
+   
+   /* =========================
+      Logo
+      ========================= */
+   
+   .site-logo {
+     display: inline-flex;
+     flex-direction: column;
+     justify-content: center;
+     gap: 0.1rem;
+     color: var(--header-text);
+     text-decoration: none;
+     font-weight: 700;
+     line-height: 1;
+     font-size: 1.1rem;
+     white-space: nowrap;
+   }
+   
+   .site-logo:hover {
+     text-decoration: underline;
+   }
+   
+   /* =========================
+      Nav button
+      ========================= */
+   
+   .nav-toggle {
+     display: none;
+     appearance: none;
+     border: 1px solid var(--header-text);
+     background: transparent;
+     color: var(--header-text);
+     padding: 0.7rem 1rem;
+     font: inherit;
+     font-weight: 600;
+     cursor: pointer;
+   }
+   
+   .nav-toggle:hover {
+     background: var(--link-hover-bg);
+   }
+   
+   /* =========================
+      Primary nav
+      ========================= */
+   
+   .primary-nav {
+     display: block;
+   }
+   
+   .primary-nav__list {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     gap: 0.5rem;
+     list-style: none;
+     margin: 0;
+     padding: 0;
+   }
+   
+   .primary-nav__item a {
+     display: inline-block;
+     color: var(--header-text);
+     text-decoration: none;
+     padding: 0.75rem 0.9rem;
+     border-radius: 0.25rem;
+   }
+   
+   .primary-nav__item a:hover,
+   .primary-nav__item a:focus-visible {
+     background: var(--link-hover-bg);
+   }
+   
+   /* =========================
+      Focus styles
+      ========================= */
+   
+   a:focus-visible,
+   button:focus-visible {
+     outline: 3px solid var(--focus-color);
+     outline-offset: 3px;
+   }
+   
+   /* =========================
+      Mobile layout
+      ========================= */
+   
+   @media (max-width: 768px) {
+     .site-header__inner {
+       flex-wrap: wrap;
+     }
+   
+     .nav-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;       margin-left: auto;
+     }
+   
+     .primary-nav {
+       width: 100%;
+       display: none;
+     }
+   
+     .primary-nav.is-open {
+       display: block;
+     }
+   
+     .primary-nav__list {
+       flex-direction: column;
+       align-items: stretch;
+       gap: 0.25rem;
+       padding-top: 0.5rem;
+     }
+   
+     .primary-nav__item a {
+       display: block;
+       width: 100%;
+       padding: 0.9rem 0.75rem;
+     }
+   }
