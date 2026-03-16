@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Accessibility</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="newer-styles.css">
+    <link rel="stylesheet" href="typography.apple.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="site-header__inner menu-container">
+            <a href="/" class="site-logo" aria-label="Digital Accessibility home">
+            <span>Digital</span>
+            <span>Accessibility</span>
+            </a>
+
+            <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-navigation"
+            aria-label="Open main menu"
+            >
+                <span class="nav-toggle__text">Menu</span>
+            </button>
+
+            <nav
+            id="primary-navigation"
+            class="primary-nav"
+            aria-label="Primary navigation"
+            >
+            <ul class="primary-nav__list">
+                <li class="primary-nav__item"><a href="/foundations.html">Foundations</a></li>
+                <li class="primary-nav__item"><a href="/practice.html">Practice</a></li>
+                <li class="primary-nav__item"><a href="/tools.html">Tools</a></li>
+                <li class="primary-nav__item"><a href="/learning.html">Learning</a></li>
+                <li class="primary-nav__item"><a href="/resources.html">Resources</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="container header">
+        <div class="header-content">
+            <h1>Digital Accessibility Specialist</h1>
+        </div>
+    </section>
+    <main id="main-content" class="container">
+        <section aria-labelledby="h2-overview">
+            <h2 id="h2-overview">Accessibility Overview</h2>
+            <ul>
+                <li>Definition of digital accessibility</li>
+                <li>Why accessibility matters</li>
+                <li>Legal and ethical considerations</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="h2-wcag-principles">
+            <h2 id="h2-wcag-principles">The WCAG's Four Principles</h2>
+            <ol>
+                <li><span class="underline">Perceivable:</span> like text alternatives for images</li>
+                <li><span class="underline">Operable:</span> like keyboard navigation</li>
+                <li><span class="underline">Understandable:</span> clear language and predictable behavior
+                    <ul>
+                        <li>In this principle, content is <span class="underline">clear</span> and <span class="underline">predictable</span></li>
+                        <li>Forms should have clear instructions <span class="underline">and</span> error messages</li>
+                        <li>Navigation should be consistent</li>
+                        <li>Language should be readable</li>
+                        <li><strong>Users shouldn't be surprised by unexpected behavior</strong></li>
+                        <li><em>Ensure instructions are intuitive, interactions are consistent, and that users can easily understand what to do</em></li>
+                    </ul>
+                </li>
+                <li><span class="underline">Robust:</span> compatible with assistive technologies</li>
+            </ol>
+            <ul>
+                <li>Each principle breaks down into success criteria like color contrast or form labels</li>
+                <li>I'd be expected to audit content against these criteria</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="h2-scope">
+            <h2 id="h2-scope">Scope</h2>
+            <ul>
+                <li>(Potentially) providing input on writing</li>
+                <li>Collaborating with content or marketing</li>
+                <li>Identify readability issues for complex teams
+                    <ul>
+                        <li>Then work with content creators to simplify it</li>
+                    </ul>
+                </li>
+                <li>Provide guidance on plain language
+                    <ul>
+                        <li>But the final wording comes from those teams</li>
+                    </ul>
+                </li>
+                <li>Be a partner in the process</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="h2-qualifications">
+            <h2 id="h2-qualifications">Qualifications</h2>
+            <ul>
+                <li>See: Certifications, 508 Compliance</li>
+                <li>WCAG, ADA compliance (508?)</li>
+                <li>Tools like Wave or AXE</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="h2-content">
+            <h2 id="h2-content">Content to Check</h2>
+            <ul>
+                <li>Websites</li>
+                <li>Applications (Desktop, iOS, Android)</li>
+                <li>Documents (PDFs, .docs, etc.)</li>
+                <li>Presentations (e.g., PowerPoint)</li>
+                <li>Video (e.g., ensuring captions are accurate)</li>
+            </ul>
+        </section>
+    </main>
+     <script src="navigation.js"></script>
+  </body>
+</html>

@@ -29,7 +29,7 @@
             aria-controls="primary-navigation"
             aria-label="Open main menu"
             >
-            <span class="nav-toggle__text">Menu</span>
+                <span class="nav-toggle__text">Menu</span>
             </button>
 
             <nav
@@ -38,11 +38,11 @@
             aria-label="Primary navigation"
             >
             <ul class="primary-nav__list">
-                <li class="primary-nav__item"><a href="#h2-overview">Foundations</a></li>
-                <li class="primary-nav__item"><a href="#h2-tasks">Practice</a></li>
-                <li class="primary-nav__item"><a href="#h2-platform-tools">Tools</a></li>
-                <li class="primary-nav__item"><a href="#h2-skills">Learning</a></li>
-                <li class="primary-nav__item"><a href="#h2-site-ideas">Resources</a></li>
+                <li class="primary-nav__item"><a href="/foundations.html">Foundations</a></li>
+                <li class="primary-nav__item"><a href="/practice.html">Practice</a></li>
+                <li class="primary-nav__item"><a href="/tools.html">Tools</a></li>
+                <li class="primary-nav__item"><a href="/learning.html">Learning</a></li>
+                <li class="primary-nav__item"><a href="/resources.html">Resources</a></li>
             </ul>
             </nav>
         </div>
@@ -52,524 +52,67 @@
             <h1>Digital Accessibility Specialist</h1>
         </div>
     </section>
-    <main id="main-content" class="container">
-        <section aria-labelledby="h2-overview">
-            <h2 id="h2-overview">Accessibility Overview</h2>
-            <ul>
-                <li>Definition of digital accessibility</li>
-                <li>Why accessibility matters</li>
-                <li>Legal and ethical considerations</li>
+    <section class="container">
+        <p>This website's content on Digital Accessibility is a work of progress. The following information is available on Specialist roles pertaining to the field. Subjects include information about basics of the role, job responsibilities, accessibility 101, and various learning resources.</p>
+        <nav class="toc-main" aria-labelledby="toc-heading">
+            <h2 id="toc-heading">Table of Contents</h2>
+          
+            <ul class="toc-section">
+          
+              <li>
+                <strong><a href="foundations.html">Foundations</a></strong>
+                <ul>
+                  <li>Overview</li>
+                  <li>WCAG Principles</li>
+                  <li>Scope</li>
+                  <li>Content Types</li>
+                </ul>
+              </li>
+          
+              <li>
+                <strong><a href="practice.html">Practice</a></strong>
+                <ul>
+                  <li>Tasks</li>
+                  <li>Processes</li>
+                  <li>Meetings</li>
+                  <li>Documentation</li>
+                  <li>Frameworks</li>
+                </ul>
+              </li>
+          
+              <li>
+                <strong><a href="tools.html">Tools</a></strong>
+                <ul>
+                  <li>Platform Tools</li>
+                  <li>Testing Tools</li>
+                  <li>PDF Tools</li>
+                  <li>Video Tools</li>
+                </ul>
+              </li>
+          
+              <li>
+                <strong><a href="learning.html">Learning</a></strong>
+                <ul>
+                  <li>Skills</li>
+                  <li>Certifications</li>
+                  <li>Criteria</li>
+                  <li>Quiz Questions</li>
+                  <li>Interview Prep</li>
+                </ul>
+              </li>
+          
+              <li>
+                <strong><a href="resources.html">Resources</a></strong>
+                <ul>
+                  <li>Site Ideas</li>
+                  <li>Open Questions</li>
+                  <li>Glossary</li>
+                </ul>
+              </li>
+          
             </ul>
-        </section>
-
-        <section aria-labelledby="h2-tasks">
-            <h2 id="h2-tasks">Tasks</h2>
-            <ul>
-                <li>Find and fix barriers in websites</li>
-                <li>Contribute to ongoing accessibility processes
-                    <ul>
-                        <li>Improving workflows or policies</li>
-                    </ul>
-                </li>
-                <li>Build sustainable practices
-                    <ul>
-                        <li>So accessibility is always considered</li>
-                    </ul>
-                </li>
-                <li>
-                    Develop documentation, guidelines, and other resources
-                    <ul>
-                        <li>i.e., checklists, short guides on key accessibility tasks</li>
-                        <li>Record quick tutorials or live demos for remote settings</li>
-                        <li>So that others follow best practices long-term</li>
-                        <li>This ensures knowledge transfer after contract</li>
-                    </ul>
-                </li>
-                <li>Provide direct consultation &amp; support:
-                    <ul>
-                        <li>Host Q &amp; A sessions to clarify doubts (screen sharing, digital resources)</li>
-                        <li>Answer questions from faculty, developers, or content creators</li>
-                    </ul>
-                </li>
-                <li>Train faculty &amp; staff
-                    <ul>
-                        <li>Collaborate with IT, faculty, &amp; content creators
-                            <ul>
-                                <li>To prevent, not fix later</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>Review of the following (but not limited to):
-                    <ul>
-                        <li>Keyboard navigation</li>
-                        <li>Color Contrast</li>
-                        <li>Image alt text (even in PDFs!)</li>
-                        <li>Logical tab focus order (i.e., HTML semantics, even on apps!)
-                            <ul>
-                                <li>Don't forget to check for interactive elements</li>
-                                <li>Proper reading order</li>
-                                <li>Correct heading structure</li>
-                            </ul>
-                        </li>
-                        <li>Tagged elements (i.e., PDFs)</li>
-                        <li>Labeled form fields (fix missing labels on form fields)</li>
-                        <li>Focus states (e.g., outline)</li>
-                        <li>Aria-Roles (supplements semantic HTML's limitations)
-                            <ul>
-                                <li>Ensure their usage is appropriate</li>
-                            </ul>
-                        </li>
-                        <li>Error messages (ensure these are announced by assistive tech)</li>
-                        <li>Acrobat forms</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-quiz-questions">
-            <h2 id="h2-quiz-questions">Quiz Questions</h2>
-            <ul>
-                <li>What is one key technical standard I'd be assessing content against as a Digital Accessibility Specialist?
-                    <ul>
-                        <li>I would be assessing content against the WCAG standards, which covers the 4 Principles of Accessibility: Perceivable, Operable, Understandable, and Robust.</li>
-                    </ul>
-                </li>
-                <li>What content types would I be expected to <span class="underline">audit</span> and remediate for accessibility in this role?
-                    <ul>
-                        <li>I would be expected to audit and remediate for accessibility in the following content types: websites, mobile and desktop apps, video tutorials, and digital documents.</li>
-                    </ul>
-                </li>
-                <li>Legal and ethical considerations</li>
-                <li>What's one responsibility you'd have that involves directly supporting others&mdash;like faculty, staff, or developers&mdash;rather than just fixing issues yourself?
-                    <ul>
-                        <li>Providing accessibility consultation
-                            <ul>
-                                <li>Communicate across teams</li>
-                                <li>Educate teams</li>
-                                <li>Create documentation</li>
-                            </ul>
-                        </li>
-                        <li>Jump on phone calls with teams and individuals</li>
-                        <li>(Sometimes) work odd hours just in case any critical accessibility issues surface</li>
-                    </ul>
-                </li>
-                <li>What types of reports or deliverables migt you be expected to produce regularly to keep stakeholders informed on accessibility progress?
-                    <ul>
-                        <li>You'd likely produce accessibility audit reports, summarizing issues found, and remidiations</li>
-                        <li>You might also deliver progress updates, training documentation, and guidelines</li>
-                        <li><strong>These ensure stakeholders are kept informed on accessibility improvements and next steps</strong></li>
-                    </ul>
-                </li>
-                <li>In this role, how would you ensure faculty &amp; staff can continue accessible practices after your contract ends?
-                    <ul>
-                        <li>The goal is to <span class="underline">create accessible documentation</span> &amp; training in multiple formats&mdash;written guides, videos, &amp; resources that empower staff after you leave.</li>
-                    </ul>
-                </li>
-                <li>What key assistive technologies are you expected to be proficient with in this role when testing for accessibility?
-                    <ul>
-                        <li>JAWS &amp; NVDA for screen-reader testing</li>
-                        <li>Lighthouse, Axe &amp; Wave for web</li>
-                        <li>Adrobe Acrobat for PDFs</li>
-                    </ul>
-                </li>
-                <li>
-                    What's one reason the job emphasizes building accessibility into processes early, rather than retrofitting later?
-                    <ul>
-                        <li>To avoid lawsuits</li>
-                        <li>To be proactive and not reactive</li>
-                        <li>To work more efficiently</li>
-                        <li>To incorporate proper accessibility guidelines &amp; implement them</li>
-                        <li>To have proper acessible content, whether it's website, application, video, article, or otherwise</li>
-                        <li><strong>By embedding accessibility early, you avoid costly fixes later &amp; ensure a smoother, more efficient process</strong></li>
-                        <li><strong>It also ensures legal compliance &amp; equitable access from the start</strong></li>
-                    </ul>
-                </li>
-                <li>If a faculty member asked you how to make a PDF accessible, what are two key steps you'd tell them to focus on first?
-                    <ul>
-                        <li>First, focus on using the Adobe Acrobat <span class="underline">accessibility checker</span> feature</li>
-                        <li>Then, look out for things such as image alt text, form fields, &amp; proper heading structure</li>
-                    </ul>
-                </li>
-                <li>What's one certification mentioned in the job description that shows formal accessibility expertise, and who issues it?
-                    <ul>
-                        <li>CPACC or CPWA, which is issued by the IAAP</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-platform-tools">
-            <h2 id="h2-platform-tools">Platform-Specific Tools (for assistive tech)</h2>
-            <h3>iOS</h3>
-            <ul>
-                <li>VoiceOver and test whether all elements are spoken and operable by swiping.
-                    <ul>
-                        <li>Use iOS <span class="underline">Accessibility Inspector</span> to check labels, traits, and contrast.</li>
-                    </ul>
-                </li>
-            </ul>
-            <h3>Desktop</h3>
-            <ul>
-                <li>Keyboard navigation, built-in accessibility tools.</li>
-                <li>Screen readers like:
-                    <ul>
-                        <li><span class="underline">NVDA</span> free &amp; open source
-                            <ul>
-                                <li>Allows you to slow down and speed up speech rate playback</li>
-                            </ul>
-                        </li>
-                        <li><span class="underline">JAWS</span> commercial product (requires a license)
-                            <ul>
-                                <li>Has trial periods</li>
-                                <li>Offers advanced features</li>
-                                <li>More in-depth customization, scripting, &amp; better support in certain enterprise applications</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>In both cases &gt; check if all interactive elements are properly labeled, focusable, and properly ordered</li>
-                <li>Microsoft 365 accessibility features (to run checks and tag content)</li>
-            </ul>
-            <h3>Websites (to scan for issues)</h3>
-            <ul>
-                <li>Lighthouse (Chrome DevTools: checks for Accessibility, SEO, Performance, and more.)</li>
-                <li>Axe
-                    <ul>
-                        <li>Chrome Extension: available in Chrome Inspector, with a solid free tier</li>
-                        <li>Runs automated accessibility tests on web pages
-                            <ul>
-                                <li>Flags issues with detailed explanations</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>WAVE
-                    <ul>
-                        <li>Comparable to Axe, but likely has unique features</li>
-                        <li>Provides a visual overlay on the page</li>
-                        <li>Highlights exactly where issues are</li>
-                    </ul>
-                </li>
-            </ul>
-            <h3>PDFs</h3>
-            <ul>
-                <li>Acrobat Accessibility Checker
-                    <ul>
-                        <li>Available in the free version</li>
-                        <li>More robust and advanced remediation tools in Pro</li>
-                    </ul>
-                </li>
-            </ul>
-            <h3>Videos</h3>
-            <ul>
-                <li><span class="underline">TO DO:</span> find captioning tools, automated caption generating, manual verification, etc.</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-scope">
-            <h2 id="h2-scope">Scope</h2>
-            <ul>
-                <li>(Potentially) providing input on writing</li>
-                <li>Collaborating with content or marketing</li>
-                <li>Identify readability issues for complex teams
-                    <ul>
-                        <li>Then work with content creators to simplify it</li>
-                    </ul>
-                </li>
-                <li>Provide guidance on plain language
-                    <ul>
-                        <li>But the final wording comes from those teams</li>
-                    </ul>
-                </li>
-                <li>Be a partner in the process</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-certifications">
-            <h2 id="h2-certifications">Certifications</h2>
-            <ul>
-                <li>Earning the following shows you have formal training in accessibility</li>
-                <li>CPACC
-                    <ul>
-                        <li>The exam takes about 2 hours</li>
-                        <li>With 100 multiple-choice questions</li>
-                        <li>$510 for non-members ($410 for members)</li>
-                    </ul>
-                </li>
-                <li>WAS
-                    <ul>
-                        <li>Also 2 hours</li>
-                        <li>With 75 multiple-choice questions</li>
-                        <li>$555 for non-members ($455 for members)</li>
-                    </ul>
-                </li>
-                <li>Both are from the International Association of Accessibility Professionals (IAAP)
-                    <ul>
-                        <li>Passing both get you the CPWA certification</li>
-                    </ul>
-                </li>
-                <li>You study independently using recommended materials
-                    <ul>
-                        <li>You then register for an online proctored exam, pass it, then earn the certification</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-wcag-principles">
-            <h2 id="h2-wcag-principles">The WCAG's Four Principles</h2>
-            <ol>
-                <li><span class="underline">Perceivable:</span> like text alternatives for images</li>
-                <li><span class="underline">Operable:</span> like keyboard navigation</li>
-                <li><span class="underline">Understandable:</span> clear language and predictable behavior
-                    <ul>
-                        <li>In this principle, content is <span class="underline">clear</span> and <span class="underline">predictable</span></li>
-                        <li>Forms should have clear instructions <span class="underline">and</span> error messages</li>
-                        <li>Navigation should be consistent</li>
-                        <li>Language should be readable</li>
-                        <li><strong>Users shouldn't be surprised by unexpected behavior</strong></li>
-                        <li><em>Ensure instructions are intuitive, interactions are consistent, and that users can easily understand what to do</em></li>
-                    </ul>
-                </li>
-                <li><span class="underline">Robust:</span> compatible with assistive technologies</li>
-            </ol>
-            <ul>
-                <li>Each principle breaks down into success criteria like color contrast or form labels</li>
-                <li>I'd be expected to audit content against these criteria</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-site-ideas">
-            <h2 id="h2-site-ideas">Ideas for this Website</h2>
-            <ul>
-                <li>Collect Resources and organize</li>
-                <li>Create "incorrect" samples with tutorial</li>
-                <li>Create user stories for accessibility users</li>
-                <li>Create website with: forms, headings, images, &amp; buttons
-                    <ul>
-                        <li>Leave out features such as alt text, labels</li>
-                        <li>Bad semantics, low contrast, bad headings</li>
-                        <li><strong>Run WAVE or Axe on it</strong></li>
-                        <li>Practice remediating each issue they flag</li>
-                    </ul>
-                </li>
-                <li>Create a quiz component</li>
-                <li>Create downloadable checklists</li>
-                <li>Create a glossary
-                    <ul>
-                        <li>Could add tags like a blog, to filter terms by department</li>
-                    </ul>
-                </li>
-                <li>Data visualization on departments using P.O.U.R.
-                    <ul>
-                        <li>The idea here would be to segment what's most relevant to depts.</li>
-                    </ul>
-                </li>
-                <li>Site-wide search feature</li>
-                <li>Build templates for documentation (frameworks)
-                    <p>Examples include:</p>
-                    <ul>
-                        <li>Project management templates</li>
-                        <li>Accessibility reports</li>
-                    </ul>
-                </li>
-                <li>Create checklists to track my knowledge progress</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-criteria">
-            <h2 id="h2-criteria">Criteria</h2>
-            <ul>
-                <li>Web Content Accessibility Guidelines (WCAG 2.1)</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-Frameworks">
-            <h2 id="h2-Frameworks">Frameworks</h2>
-            <h3>Same for guidelines, online resources, progress reports, and documentation</h3>
-            <ul>
-                <li>Integrating accessibility into agile
-                    <ul>
-                        <li>Accessibility user stories or Acceptance Criteria</li>
-                    </ul>
-                </li>
-                <li>Accessibility reports
-                    <ul>
-                        <li>W3C org provides sample accessibility audit templates</li>
-                    </ul>
-                </li>
-                <li>General Project Management templates
-                    <ul>
-                        <li>Status summaries</li>
-                        <li>Key issues</li>
-                        <li>Next steps</li>
-                        <li>Timelines</li>
-                    </ul>
-                </li>
-                <li>Government Digital Service (GDS) or accessibility consultancies</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-skills">
-            <h2 id="h2-skills">Skills</h2>
-            <ul>
-                <li>Critical Thinking
-                    <ul>
-                        <li>Understanding the current workflow</li>
-                        <li>Asking where accessibility fits in from the start</li>
-                        <li>Identifying gaps</li>
-                        <li>Collaborating with teams to embed accessibility checks&mdash;as <span class="underline">early</span> as possible</li>
-                        <li><em>Use guidelines, but apply them by asking the right questions</em></li>
-                    </ul>
-                </li>
-                <li>Organization
-                    <ul>
-                        <li>Know where to find tools and resources</li>
-                        <li>This contributes to efficiency</li>
-                        <li>Quicker time to action improves communication</li>
-                    </ul>
-                </li>
-                <li>Technical
-                    <ul>
-                        <li>Familiarity with Axe, WAVE, JAWS, NVDA, Acrobat, and mobile accessibility inspectors</li>
-                        <li>Developer skills for linting, scripts, and tools such as Playwright and Storybook</li>
-                    </ul>
-                </li>
-                <li>Documentation
-                    <ul>
-                        <li>Knowing your audience</li>
-                        <li>Ensuring guides are informative and easy to read</li>
-                        <li>Understanding how to document in a variety of ways, such as through video tutorial, checklists, technical writing, general guides, accessibility reports, and frameworks/templates pertaining to your audience</li>
-                    </ul>
-                </li>
-                <li>Flexibility
-                    <ul>
-                        <li>To handle urgent issues outside of normal hours
-                            <ul>
-                                <li>Especially during peak academic times</li>
-                            </ul>
-                        </li>
-                        <li>&amp; for emerging priorities (tackling new challenges as they arise)</li>
-                    </ul>
-                </li>
-                <li>Adaptability for evolving needs</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-qualifications">
-            <h2 id="h2-qualifications">Qualifications</h2>
-            <ul>
-                <li>See: Certifications, 508 Compliance</li>
-                <li>WCAG, ADA compliance (508?)</li>
-                <li>Tools like Wave or AXE</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-processes">
-            <h2 id="h2-processes">Processes</h2>
-            <ul>
-                <li>Adding accessibility reviews (prior to published content)
-                    <ul>
-                        <li>Implement by setting up checkpoints &amp; tracking sessions</li>
-                    </ul>
-                </li>
-                <li>Usage of scanning tools and manual fixes across each content type</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-meetings">
-            <h2 id="h2-meetings">Meetings</h2>
-            <ul>
-                <li>Planning (join with IT)</li>
-                <li>Integrate accessibility checks into development sprints</li>
-                <li>Run workshops (with faculty)
-                    <ul>
-                        <li>i.e., on accessible course materials</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-content">
-            <h2 id="h2-content">Content to Check</h2>
-            <ul>
-                <li>Websites</li>
-                <li>Applications (Desktop, iOS, Android)</li>
-                <li>Documents (PDFs, .docs, etc.)</li>
-                <li>Presentations (e.g., PowerPoint)</li>
-                <li>Video (e.g., ensuring captions are accurate)</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-miscellanaeous">
-            <h2 id="h2-miscellanaeous">Miscellanaeous</h2>
-            <ul>
-                <li>Section 508 Compliance</li>
-                <li>
-                    <dl>
-                        <dt><strong>Remediation</strong></dt>
-                        <dd>Fixing accessibility issues</dd>
-                    </dl>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-documentation">
-            <h2 id="h2-documentation">Documentation</h2>
-            <ul>
-                <li>Write clear, step-by-step guides
-                    <ul>
-                        <li>Often in HTML, PDF, or internal wikis cover accessibility standards</li>
-                    </ul>
-                </li>
-                <li>Great for practical demos:
-                    <ul>
-                        <li>PowerPoints (slides)</li>
-                        <li>Short videos (e.g., "how to fix a PDF tag")</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-interview-prep">
-            <h2 id="h2-interview-prep">Interview Prep</h2>
-            <ul>
-                <li>Reference my solid technical foundation
-                    <ul>
-                      <li>Focus on my developer background (a11y-focused at Boston Children's Hospital)</li>
-                      <li>Frontend-experience: semantic HTML, ARIA, color contrast</li>
-                      <li>Frame the above as an expanding strength</li>
-                    </ul>
-                </li>
-                <li>Emphasize how I already audit interfaces
-                    <ul>
-                        <li>Now apply that mindset to documents and processes</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-questions">
-            <h2 id="h2-questions">Open Questions</h2>
-            <ul>
-                <li>What does it mean for navigation to be "consistent"?</li>
-                <li>How do I make navigation consistent?</li>
-                <li>How can I align page language (ES/EN, etc.) with accessibility?</li>
-                <li>What does tagging content consist of? What does it mean?</li>
-                <li>How do you add descriptions in adobe/pdfs? What does that mean?</li>
-                <li>How do you create guidelines/documents to train on?</li>
-                <li>Progress reports? Structure?
-                    <ul>
-                        <li>How do I write good documentation with a certain structure?</li>
-                        <li>Once you have a structure, it's about adapting it to your needs.</li>
-                        <li>This is where context-specific situations become relevant</li>
-                        <li>This is also why I want to build a template generator tool</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-    </main>
+          </nav>
+    </section>
     <!-- <script src="line-length-checker.js"></script> -->
      <script src="navigation.js"></script>
   </body>

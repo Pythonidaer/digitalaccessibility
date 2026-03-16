@@ -49,6 +49,40 @@ h3 {
     margin-bottom: 24px;
 }
 
+/* Table of contents Start */
+.toc-main {
+    margin-block: 2rem;
+  }
+  
+  .toc-section {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .toc-section > li {
+    margin-bottom: 1.5rem;
+  }
+  
+  .toc-section strong {
+    display: block;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .toc-section ul {
+    padding-left: 1.2rem;
+  }
+  
+  .toc-section a {
+    text-decoration: none;
+  }
+  
+  .toc-section a:hover,
+  .toc-section a:focus {
+    text-decoration: underline;
+  }
+/* Table of contends End */
+
 main section h2 {
     margin-top: 0;
     margin-bottom: 0.5rem;

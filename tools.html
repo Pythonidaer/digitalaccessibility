@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Accessibility</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="newer-styles.css">
+    <link rel="stylesheet" href="typography.apple.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="site-header__inner menu-container">
+            <a href="/" class="site-logo" aria-label="Digital Accessibility home">
+            <span>Digital</span>
+            <span>Accessibility</span>
+            </a>
+
+            <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-navigation"
+            aria-label="Open main menu"
+            >
+                <span class="nav-toggle__text">Menu</span>
+            </button>
+
+            <nav
+            id="primary-navigation"
+            class="primary-nav"
+            aria-label="Primary navigation"
+            >
+            <ul class="primary-nav__list">
+                <li class="primary-nav__item"><a href="/foundations.html">Foundations</a></li>
+                <li class="primary-nav__item"><a href="/practice.html">Practice</a></li>
+                <li class="primary-nav__item"><a href="/tools.html">Tools</a></li>
+                <li class="primary-nav__item"><a href="/learning.html">Learning</a></li>
+                <li class="primary-nav__item"><a href="/resources.html">Resources</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="container header">
+        <div class="header-content">
+            <h1>Digital Accessibility Specialist</h1>
+        </div>
+    </section>
+    <main id="main-content" class="container">
+        <section aria-labelledby="h2-platform-tools">
+            <h2 id="h2-platform-tools">Platform-Specific Tools (for assistive tech)</h2>
+            <h3>iOS</h3>
+            <ul>
+                <li>VoiceOver and test whether all elements are spoken and operable by swiping.
+                    <ul>
+                        <li>Use iOS <span class="underline">Accessibility Inspector</span> to check labels, traits, and contrast.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Desktop</h3>
+            <ul>
+                <li>Keyboard navigation, built-in accessibility tools.</li>
+                <li>Screen readers like:
+                    <ul>
+                        <li><span class="underline">NVDA</span> free &amp; open source
+                            <ul>
+                                <li>Allows you to slow down and speed up speech rate playback</li>
+                            </ul>
+                        </li>
+                        <li><span class="underline">JAWS</span> commercial product (requires a license)
+                            <ul>
+                                <li>Has trial periods</li>
+                                <li>Offers advanced features</li>
+                                <li>More in-depth customization, scripting, &amp; better support in certain enterprise applications</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>In both cases &gt; check if all interactive elements are properly labeled, focusable, and properly ordered</li>
+                <li>Microsoft 365 accessibility features (to run checks and tag content)</li>
+            </ul>
+            <h3>Websites (to scan for issues)</h3>
+            <ul>
+                <li>Lighthouse (Chrome DevTools: checks for Accessibility, SEO, Performance, and more.)</li>
+                <li>Axe
+                    <ul>
+                        <li>Chrome Extension: available in Chrome Inspector, with a solid free tier</li>
+                        <li>Runs automated accessibility tests on web pages
+                            <ul>
+                                <li>Flags issues with detailed explanations</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>WAVE
+                    <ul>
+                        <li>Comparable to Axe, but likely has unique features</li>
+                        <li>Provides a visual overlay on the page</li>
+                        <li>Highlights exactly where issues are</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>PDFs</h3>
+            <ul>
+                <li>Acrobat Accessibility Checker
+                    <ul>
+                        <li>Available in the free version</li>
+                        <li>More robust and advanced remediation tools in Pro</li>
+                    </ul>
+                </li>
+            </ul>
+            <h3>Videos</h3>
+            <ul>
+                <li><span class="underline">TO DO:</span> find captioning tools, automated caption generating, manual verification, etc.</li>
+            </ul>
+        </section>
+    </main>
+     <script src="navigation.js"></script>
+  </body>
+</html>
