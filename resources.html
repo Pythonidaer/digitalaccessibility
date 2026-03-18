@@ -53,7 +53,14 @@
             <h2 id="h2-site-ideas">Ideas for this Website</h2>
             <ul>
                 <li>Collect Resources and organize</li>
-                <li>Create "incorrect" samples with tutorial</li>
+                <li>Create "incorrect" samples with tutorial
+                    <ul>
+                        <li>Explore JavaScript libraries for guided tours suh as Shepard.js and Intro.js</li>
+                        <li>The above libraries allow for <span class="underline">defined steps, highlighted elements, and tooltips.</span></li>
+                        <li>I would define each section, write clear instructions, and integrate ARIA guidance into the tour</li>
+                        <li><strong>Build my pages like any normal site, then layer the tour library on top to walk users through examples.</strong></li>
+                    </ul>
+                </li>
                 <li>Create user stories for accessibility users</li>
                 <li>Create website with: forms, headings, images, &amp; buttons
                     <ul>
@@ -84,6 +91,9 @@
                     </ul>
                 </li>
                 <li>Create checklists to track my knowledge progress</li>
+                <li>Create downloadable checklists for P.O.U.R., by content type, by disability type, etc.</li>
+                <li>Create "Connect A to B" drag lists, such as for elements to P.O.U.R. principles</li>
+                <li>Add a search more to the top of each page to more easily search for information</li>
             </ul>
         </section>
 
@@ -103,6 +113,21 @@
                         <li>This is where context-specific situations become relevant</li>
                         <li>This is also why I want to build a template generator tool</li>
                     </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="h2-examples-glosary">
+            <h2 id="h2-examples-glosary">Examples (to become Glossary)</h2>
+            <ul>
+                <li>Glossary</li>
+                <li>
+                    <dl>
+                        <dt><strong>Content Navigation</strong></dt>
+                        <dd>The primary <span class="underline">menu, links, &amp; interactive elements</span> appear in the same order &amp; location across pages. For instance, if you have a top navigation bar, it shouldn't jump to the side on another page. The labels &amp; order of items (e.g., "Home") should remain predictable. This helps users, especially those with cognitive or memory impairments, navigate easily. In practice, design your navigation components to be shared across templates, follow a logical order, &amp; don't shift layouts between pages.</dd>
+                        <dt><strong>Message Pop-Ups</strong></dt>
+                        <dd>For toast or pop-up messages, ensure they are perceiable by all users. First, they should be announced to screen readers, using ARIA live regions, so that assistive tech picks them up immediately. Second, give users enough time to read them&mdash;either allow them to dismiss the message manually or keep it visible long enough to comprehend. Finally, ensure toast notifications don't trap focus&mdash;users should be able to navigate or ignore them if they prefer</dd>
+                    </dl>
                 </li>
             </ul>
         </section>

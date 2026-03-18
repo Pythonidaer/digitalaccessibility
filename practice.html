@@ -111,6 +111,13 @@
                         <li>Acrobat forms</li>
                     </ul>
                 </li>
+                <li>Correct application of ARIA attributes:
+                    <ul>
+                        <li>There are roughly 50-60 core ARIA roles</li>
+                        <li>Breakdown: ARIA attributes include <span class="underline">roles</span> (like "button" or "dialog"), <span class="underline">states</span> (like "aria-checked"), and <span class="underline">properties</span> (like aria-label).</li>
+                        <li>In total, there are about 50-60 standardized ones. Examples include <em>"aria-labelledby", "aria-hidden", and "role=navigation"</em>.</li>
+                    </ul>
+                </li>
             </ul>
         </section>
 
@@ -123,6 +130,18 @@
                     </ul>
                 </li>
                 <li>Usage of scanning tools and manual fixes across each content type</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="considerations-beyond-code">
+            <h2 id="considerations-beyond-code">Additional AA Considerations Beyond Code</h2>
+            <ul>
+                <li><span class="underline">Flashing Content</span> Avoid content that flashes more than three times per second to prevent seizures</li>
+                <li><span class="underline">Language of Page</span> Identify the language of the page so assitive tech can adjust accordingly</li>
+                <li><span class="underline">Error Prevention</span> For important data (i.e., legal, financial), users should have the chance to review and correct errors</li>
+                <li><span class="underline">Text Spacing</span> Users should be able to adjust line spacing without losing content or functionality
+                    <p>To allow text spacing adjustments, you ensure your site is compatible with user stylesheets or browser controls. <span class="underline">Avoid fixed height containers</span> or text that can't reflow when line height or spacing is increased.</p>
+                </li>
             </ul>
         </section>
 

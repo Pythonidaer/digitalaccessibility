@@ -14,10 +14,9 @@
     <header class="site-header">
         <div class="site-header__inner menu-container">
             <a href="./" class="site-logo" aria-label="Digital Accessibility home">
-            <span>Digital</span>
-            <span>Accessibility</span>
+                <span>Digital</span>
+                <span>Accessibility</span>
             </a>
-
             <button
             class="nav-toggle"
             type="button"
@@ -54,8 +53,27 @@
             <ul>
                 <li>Definition of digital accessibility</li>
                 <li>Why accessibility matters</li>
+                <li>Types of disabilities</li>
                 <li>Legal and ethical considerations</li>
             </ul>
+            <p>The Digital Accessibility Specialist role <span class="underline">ensures compliance</span> of the W.C.A.G. for web content.</p>
+            <p>Section 508 is part of the United States federal law (Rehabilitation Act) that mandates accessibility for federal agencies.</p>
+            <p>W.C.A.G's <span class="underline">P.O.U.R. principles</span> form its foundation and encapsulates the overarching requirements for accessibile digital content. Each has success criteria across multiple levels.</p>
+        </section>
+
+        <section aria-labelledby="h2-disability-types">
+            <h2 id="h2-disability-types">Types of Disabilities</h2>
+            <h3>Accessibiliy Laws &amp; Guidelines address various categories of disabilities:</h3>
+            <ol>
+                <li><span class="underline">Visual</span> Support for blindness, low vision, and color blindness. <span underline="Techniques:"></span> screen reader support, text alternatives, sufficient color contrast.</li>
+                <li><span class="underline">Hearing</span> Support for deafness or hard of hearing. <span class="underline">Techniques:</span> captions, transcript visual indicators for audio cues.</li>
+                <li><span class="underline">Motor (physical)</span> Support for users with limited fine motor control or who cannot use a mouse. <span class="underline">Techniques:</span> full keyboard navigation, large click areas.</li>
+                <li><span class="underline">Cognitive/Learning</span> Suppot for users with dyslexia, ADHD, memory impairments. <span class="underline">Techniques:</span> clear layouts, consistent navigation, simple language, avoiding distractions.</li>
+                <li><span class="underline">Neurological</span> Support for epilepsy or other conditions triggered by flashing or motion. <span class="underline">Techniques:</span> avoid flashing context, provide motion reduction options.</li>
+                <li><span class="underline">Speech</span> Support for users who cannot use voice input. <span class="underline">Techniques:</span> ensure alternatives for voice-only commands.</li>
+                <li><span class="underline">Seizure/Physical Reactions</span> Support for users vulnerable to seizures. <span class="underline">Techniques:</span> no rapid flashing, pause/stop controls for animations.</li>
+            </ol>
+            <p>These align with W.C.A.G., A.D.A., &amp; Section 508. Each category shapes specific success criteria, ensuring digital content is inclusive.</p>
         </section>
 
         <section aria-labelledby="h2-wcag-principles">
@@ -79,6 +97,43 @@
                 <li>Each principle breaks down into success criteria like color contrast or form labels</li>
                 <li>I'd be expected to audit content against these criteria</li>
             </ul>
+        </section>
+
+        <section aria-labelledby="h2-wcag-principle-elements">
+            <h2 id="h2-wcag-principle-elements">P.O.U.R. Elements Broken Down</h2>
+            <h3>This is a non-exhaustive list meant to connect examples to specific W.C.A.G. Principles</h3>
+            <ul>
+                <li><span class="underline">Perceivable</span>
+                    <ul>
+                        <li><span class="underline">Images (alt text)</span> Ensure all images have text alternatives</li>
+                        <li><span class="underline">Semantic Headings</span> Use HTML heading elements (i.e., H1, H2, etc.) to structure content logically</li>
+                        <li><span class="underline">Color Contrast</span> Ensure sufficient contrast (AA requires a contrast ratio of at least 4.5:1 for normal text)</li>
+                        <li><span class="underline">Non-Text Content</span> Provide alternatives for audio, video, or other media</li>
+                    </ul>
+                </li>
+                <li><span class="underline">Operable</span>
+                    <ul>
+                        <li><span class="underline">Keyboard Navigation</span> All functionality should be operable via keyboard</li>
+                        <li><span class="underline">Focus Indicators</span> Ensure clear focus states when navigating via keyboard</li>
+                        <li><span class="underline">Consistent Navigation</span> Repeated elements (like menus) should appear in a consistent order</li>
+                        <li><span class="underline">Timing</span> Users should have enouigh time for tasks&mdash;avoid timeouts or give options to extend time</li>
+                    </ul>
+                </li>
+                <li><span class="underline">Understandable</span>
+                    <ul>
+                        <li><span class="underline">Forms with Labels</span> Every form input needs clear, programmatically associated labels</li>
+                        <li><span class="underline">Readable Text</span> Content should be clear, with a reading level suitable for a wide audience, or with supplemental aids (like definitions)</li>
+                        <li><span class="underline">Predictable Behavior</span> Ensure consistent behavior, avoiding sudden changes</li>
+                    </ul>
+                </li>
+                <li><span class="underline">Robust</span>
+                    <ul>
+                        <li><span class="underline">ARIA Labels</span> Use ARIA attributes when native HTML isn't sufficient</li>
+                        <li><span class="underline">Compatible Code</span> Ensure content can be interpreted by assitive technologies (e.g., sreen readers, browsers, etc.)</li>
+                    </ul>
+                </li>
+            </ul>
+
         </section>
 
         <section aria-labelledby="h2-scope">
@@ -117,6 +172,15 @@
                 <li>Documents (PDFs, .docs, etc.)</li>
                 <li>Presentations (e.g., PowerPoint)</li>
                 <li>Video (e.g., ensuring captions are accurate)</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="h2-conformance-levels">
+            <h2 id="h2-conformance-levels">W.C.A.G. Conformance Levels</h2>
+            <ul>
+                <li><span class="underline">A (basic)</span></li>
+                <li><span class="underline">AA (mid-level)</span> Generally the level required by law or policy (like Section 508)</li>
+                <li><span class="underline">AAA (highest)</span> More aspirational (extends further)</li>
             </ul>
         </section>
     </main>
