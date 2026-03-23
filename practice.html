@@ -133,6 +133,28 @@
             </ul>
         </section>
 
+        <!-- Roles and departments -->
+        <section aria-labelledby="h2-roles-and-departments">
+            <h2 id="h2-roles-and-departments">Roles and Departments</h2>
+            <p>Roles and departments vary based on the organization. They are typically:</p>
+            <ul>
+                <li><strong>Content Editors and faculty</strong> focus on document and media accessibility (like alt text and captions).</li>
+                <li><strong>IT</strong> often ensure systems (like Content Management Systems) support accessibility features.</li>
+                <li><strong>Software Engineers</strong> handle the code-level compliance (such as ARIA attributes).</li>
+                <li><strong>Digital Accessibility Speciailists</strong> may bridge all these, guiding testing and remediation.</li>
+            </ul>
+            <p>For presenting information, you can segment by role&mdash;give editors practical guides on media, engineers technical criteria, and IT and specialists broader standards. Each team plays its part.</p>
+            <p>See <a href="https://www.mspcc.org/content-accessibility/">mspcc.org</a> for more information.</p>
+        </section>
+
+        <section aria-labelledby="h2-mental-modal">
+            <h2 id="h2-mental-modal">Quick Mental Modal</h2>
+            <ul>
+                <li><strong>HTML</strong> = built-in accessibility</li>
+                <li><strong>ARIA</strong> = patch for custom/dynamic UI</li>
+            </ul>
+        </section>
+
         <section aria-labelledby="considerations-beyond-code">
             <h2 id="considerations-beyond-code">Additional AA Considerations Beyond Code</h2>
             <ul>
@@ -198,6 +220,55 @@
                     </ul>
                 </li>
                 <li>Government Digital Service (GDS) or accessibility consultancies</li>
+            </ul>
+        </section>
+
+        <!-- usage of Visual Cues -->
+        <section aria-labelledby="h2-usage-of-visual-cues">
+            <h2 id="h2-usage-of-visual-cues">Usage of Visual Cues</h2>
+            <ul>
+                <li>Icons ("Note" like a lightbulb)</li>
+                <li>Inline badges
+                    <ul>
+                        <li>Example: "Warning" icon (like a triangle)&mdash;#FF8C00 (dark amber)</li>
+                        <li>Example: "Key info" icon (like a star)&mdash;#0050A0 (deep blue)</li>
+                        <li>Example: "Success"&mdash;#008000 (rich green)</li>
+                    </ul>
+                </li>
+                <li>Use accessible SVG icons
+                    <ul>
+                        <li>Font Awesome (free resource with icons like note, alert, and info symbols)</li>
+                        <li>Free CDN (link in HTML)</li>
+                        <li>Add Icons directly with classes</li>
+                        <li>For accessible emphasis colors, use strong contrast</li>
+                        <li>Use recognizable cues</li>
+                    </ul>
+                </li>
+                <li>Ensure proper color contrast</li>
+            </ul>
+            <ol>
+                <li>Choose a set</li>
+                <li>Discuss styling after</li>
+            </ol>
+        </section>
+
+        <!-- Multi-Modal content -->
+        <section aria-labelledby="h2-multi-modal-content">
+            <h2 id="h2-multi-modal-content">Multi-Modal Content</h2>
+            <p>You can offer options:</p>
+            <ul>
+                <li>Summarize key text and add a video tutorial or audio file.</li>
+                <li>You can use tools like text-to-speech APIs to offer audio
+                    <ul>
+                        <li>(i.e., Amazon Polly, Google Cloud Text-to-Speech)</li>
+                    </ul>
+                </li>
+                <li>Structure each page with the main content, then offer a "Watch", "Listen", or "Read More" option
+                    <ul>
+                        <li>That way, users can pick their preferred medium</li>
+                        <li>Consistency &amp; user choice are key</li>
+                    </ul>
+                </li>
             </ul>
         </section>
     </main>

@@ -142,6 +142,16 @@
                         <dd>Fixing accessibility issues</dd>
                     </dl>
                 </li>
+                <li>Use native HTML first. Only use ARIA when you have to.
+                    <ul>
+                        <li>Example (bad): <code>&lt;div role="button"&gt;Click&lt;/div&gt;</code></li>
+                        <li>Example (better): <code>&lt;button&gt;Click&lt;/button&gt;</code></li>
+                    </ul>
+                </li>
+                <li>Look into accessiBe (accessibility platform) and how it can help with accessibility</li>
+                <li>Save presets by role on this site</li>
+                <li>For emphasis, avoid underlining unless it's a link. Use <strong>bold or font-weight</strong> for emphasis, or color with sufficient contrast.</li>
+                <li>Be consistent&mdash;create CSS classes for emphasis patterns, so you aren't mixing styles</li>
             </ul>
         </section>
     </main>

@@ -55,10 +55,21 @@
                 <li>Why accessibility matters</li>
                 <li>Types of disabilities</li>
                 <li>Legal and ethical considerations</li>
+                <li>Accessible Rich Internet Applications (ARIA)</li>
+                <li>Violations</li>
             </ul>
             <p>The Digital Accessibility Specialist role <span class="underline">ensures compliance</span> of the W.C.A.G. for web content.</p>
             <p>Section 508 is part of the United States federal law (Rehabilitation Act) that mandates accessibility for federal agencies.</p>
             <p>W.C.A.G's <span class="underline">P.O.U.R. principles</span> form its foundation and encapsulates the overarching requirements for accessibile digital content. Each has success criteria across multiple levels.</p>
+        </section>
+
+        <section aria-labelledby="h2-ada-vs-section-508">
+            <h2 id="h2-ada-vs-section-508">ADA vs. Section 508</h2>
+            <ul>
+                <li><strong>ADA</strong> (Americans with Disabilities Act) is a broad civil rights law prohibiting discrimination based on disability in public life.</li>
+                <li><strong>Section 508</strong> is a federal mandate that specifically requires federal electronic &amp; information technology to be accessible.</li>
+            </ul>
+            <p>Both align with W.C.A.G. standards, but A.D.A. applies more broadly (e.g., wheelchair ramps, public transportation, etc.), while Section 508 is specific to federal agencies and their digital content.</p>
         </section>
 
         <section aria-labelledby="h2-disability-types">
@@ -136,6 +147,101 @@
 
         </section>
 
+        <section aria-labelledby="h2-what-is-aria">
+            <h2 id="h2-what-is-aria">What is ARIA?</h2>
+            <ul>
+                <li><strong>Accessible Rich Internet Applications</strong>
+                    <ul>
+                        <li>Created by the World Wide Web Consortium (W.3.C.)</li>
+                        <li>Used to make dynamic UI (JS-heavy apps) accessible to assistive tech</li>
+                        <li>Supports W.C.A.G., mainly <strong>Perceivable, Operable, &amp; Robust</strong></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- what's it for -->
+        <section aria-labelledby="h2-what-is-aria-for">
+            <h2 id="h2-what-is-aria-for">What is ARIA For?</h2>
+            <ul>
+                <li>ARIA helps screen reders and assistive tech understand UI that HTML alone doesn't well
+                    <ul>
+                        <li>
+                            <ul>
+                                <li>Examples:
+                                    <ul>
+                                        <li>Custom dropdowns</li>
+                                        <li>Modal dialogs</li>
+                                        <li>Tabs</li>
+                                        <li>Sliders</li>
+                                        <li>Live updates (alerts, notifications)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Without ARIA, screen readers may not know what something is.</p>
+            <p>With ARIA, you explicitly tell it.</p>
+        </section>
+
+        <!-- What it actually does -->
+        <section aria-labelledby="h2-what-aria-actually-does">
+            <h2 id="h2-what-aria-actually-does">What ARIA Actually Does</h2>
+            <ul>
+                <li><strong>Roles</strong> &dash; Tell what something is
+                    <ul>
+                        <li>role = "button"</li>
+                        <li>role = "dialog"</li>
+                        <li>role = "navigation"</li>
+                    </ul>
+                </li>
+                <li><strong>States</strong> &dash; Tell current condition
+                    <ul>
+                        <li>aria-expanded = "true"</li>
+                        <li>aria-checked = "false"</li>
+                    </ul>
+                </li>
+                <li><strong>Properties</strong> &dash; Give extra meaning
+                    <ul>
+                        <li>aria-label = "Close menu"</li>
+                        <li>aria-describedby = "error-message"</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="h2-what-aria-satisfies">
+            <h2 id="h2-what-aria-satisfies">What ARIA Satisfies in W.C.A.G. (P.O.U.R.)</h2>
+            <ul>
+                <li><strong>Perceivable</strong>
+                    <ul>
+                        <li>Adds labels/descriptions so users can understand content</li>
+                        <li>Example: aria-label on icon buttons</li>
+                    </ul>
+                </li>
+                <li><strong>Operable</strong>
+                    <ul>
+                        <li>Helps keyboard &amp; assistive tech interaction</li>
+                        <li>Example: aria-controls on menus</li>
+                    </ul>
+                </li>
+                <li><strong>Understandable (partially)</strong>
+                    <ul>
+                        <li>Can clarify meaning (i.e., labels, relationships)</li>
+                        <li>But not the main tool here</li>
+                    </ul>
+                </li>
+                <li><strong>Robust (BIG One)</strong>
+                    <ul>
+                        <li>Ensures compatibility with assistive tech</li>
+                        <li>This is where ARIA matters most</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
         <section aria-labelledby="h2-scope">
             <h2 id="h2-scope">Scope</h2>
             <ul>
@@ -153,6 +259,12 @@
                 </li>
                 <li>Be a partner in the process</li>
             </ul>
+        </section>
+
+        <section aria-labelledby="h2-violations">
+            <h2 id="h2-violations">Violations</h2>
+            <p>Violations depend on the entity. If it's a federal agency or someone contracting with the government, failing to provide accessible digital content would violate Section 508. If it's a private public accomodation, the A.D.A. would be the law in question.</p>
+            <p>Both, however, aim for digital accessibility, so the standards (like W.C.A.G.) are often the same.</p>
         </section>
 
         <section aria-labelledby="h2-qualifications">
