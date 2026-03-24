@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning (archived entry) | Digital Accessibility</title>
+    <title>Search | Digital Accessibility</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="newer-styles.css">
     <link rel="stylesheet" href="typography.apple.css">
+    <link rel="stylesheet" href="search.css">
   </head>
-  <body data-site-path="learning.html" data-nav-section="">
+  <body data-site-path="search.html" data-nav-section="">
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="site-header">
         <div class="site-header__inner menu-container">
@@ -36,7 +37,7 @@
         <button type="button" class="section-nav-toggle" aria-expanded="false" aria-controls="section-nav-panel" hidden>
           <span class="section-nav-toggle__text">Section menu</span>
         </button>
-        <aside id="section-nav-panel" class="site-layout__sidebar" aria-label="Learning">
+        <aside id="section-nav-panel" class="site-layout__sidebar" aria-label="Section navigation">
           <div data-section-nav-mount="" class="section-nav-mount"></div>
         </aside>
         <div class="site-layout__primary">
@@ -44,15 +45,25 @@
     <main id="main-content" tabindex="-1">
     <section class="container header">
         <div class="header-content">
-            <h1>Learning page (temporary)</h1>
+            <h1>Search</h1>
         </div>
     </section>
-    <div class="container">
-        <p>The former Learning page mixed practice-style material with reference material. It is split as follows (no duplicated body text):</p>
-        <ul>
-            <li><a href="practice/index.html">Practice</a> — quizzes / study questions, structuring quizzes, video tutorial ideas</li>
-            <li><a href="reference/index.html">Reference</a> — certifications, interview prep, skills; the WCAG “Criteria” bullet moved to <a href="core-concepts/wcag-overview.html">Core Concepts → WCAG Overview</a></li>
-        </ul>
+    <div class="container search-page">
+        <p>Search page and glossary entries from this site. Results load in the list below after you submit. You can bookmark or share a results URL that includes your query.</p>
+
+        <form class="search-page__form" role="search" method="get" action="search.html">
+          <label class="search-page__label" for="search-page-q">Search</label>
+          <input class="search-page__input" type="search" id="search-page-q" name="q" autocomplete="off" enterkeyhint="search">
+          <button class="search-page__submit" type="submit">Search</button>
+        </form>
+
+        <p id="search-status" class="search-page__status" aria-live="polite" aria-atomic="true"></p>
+
+        <section class="search-results" aria-labelledby="search-results-heading">
+        <h2 id="search-results-heading" class="search-results__title">Results</h2>
+        <p id="search-empty" class="search-page__empty" hidden></p>
+        <ol id="search-results-list" class="search-results__list"></ol>
+        </section>
     </div>
     </main>
         </div>
@@ -60,5 +71,6 @@
     </div>
     <script src="section-nav.js" defer></script>
     <script src="navigation.js"></script>
+    <script src="search.js" defer></script>
   </body>
 </html>

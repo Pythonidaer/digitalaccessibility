@@ -1,0 +1,670 @@
+{
+  "version": 1,
+  "generated": "2026-03-24",
+  "entries": [
+    {
+      "title": "Home",
+      "url": "index.html",
+      "section": "Home",
+      "summary": "Overview of this Digital Accessibility Specialist study site: core concepts, workflows, tools, practice, and reference.",
+      "keywords": [
+        "home",
+        "specialist",
+        "overview",
+        "accessibility",
+        "study",
+        "toc",
+        "contents"
+      ],
+      "content": "Overview of this Digital Accessibility Specialist study site: core concepts, workflows, tools, practice, and reference. home specialist overview accessibility study toc contents Home Home"
+    },
+    {
+      "title": "Core Concepts",
+      "url": "core-concepts/index.html",
+      "section": "Core Concepts",
+      "summary": "Section index for foundations: accessibility basics, WCAG, laws, ARIA, and the specialist role.",
+      "keywords": [
+        "core concepts",
+        "foundations",
+        "basics",
+        "wcag",
+        "overview"
+      ],
+      "content": "Section index for foundations: accessibility basics, WCAG, laws, ARIA, and the specialist role. core concepts foundations basics wcag overview Core Concepts Core Concepts"
+    },
+    {
+      "title": "What Is Digital Accessibility",
+      "url": "core-concepts/what-is-digital-accessibility.html",
+      "section": "Core Concepts",
+      "summary": "Introductory notes on what digital accessibility means in practice.",
+      "keywords": [
+        "accessibility",
+        "definition",
+        "introduction",
+        "digital"
+      ],
+      "content": "Introductory notes on what digital accessibility means in practice. accessibility definition introduction digital What Is Digital Accessibility Core Concepts"
+    },
+    {
+      "title": "WCAG Overview",
+      "url": "core-concepts/wcag-overview.html",
+      "section": "Core Concepts",
+      "summary": "WCAG four principles (Perceivable, Operable, Understandable, Robust), success criteria, AA considerations, and WCAG 2.1.",
+      "keywords": [
+        "wcag",
+        "pour",
+        "principles",
+        "perceivable",
+        "operable",
+        "understandable",
+        "robust",
+        "criteria",
+        "2.1",
+        "aa"
+      ],
+      "content": "WCAG four principles (Perceivable, Operable, Understandable, Robust), success criteria, AA considerations, and WCAG 2.1. wcag pour principles perceivable operable understandable robust criteria 2.1 aa WCAG Overview Core Concepts"
+    },
+    {
+      "title": "POUR Principles",
+      "url": "core-concepts/pour-principles.html",
+      "section": "Core Concepts",
+      "summary": "Notes on the POUR framework aligned with WCAG principles.",
+      "keywords": [
+        "pour",
+        "wcag",
+        "principles",
+        "perceivable",
+        "operable"
+      ],
+      "content": "Notes on the POUR framework aligned with WCAG principles. pour wcag principles perceivable operable POUR Principles Core Concepts"
+    },
+    {
+      "title": "Laws (ADA, Section 508)",
+      "url": "core-concepts/laws.html",
+      "section": "Core Concepts",
+      "summary": "Legal context including ADA and Section 508 as noted on the site.",
+      "keywords": [
+        "ada",
+        "section 508",
+        "law",
+        "legal",
+        "compliance",
+        "regulation"
+      ],
+      "content": "Legal context including ADA and Section 508 as noted on the site. ada section 508 law legal compliance regulation Laws (ADA, Section 508) Core Concepts"
+    },
+    {
+      "title": "Conformance Levels",
+      "url": "core-concepts/conformance-levels.html",
+      "section": "Core Concepts",
+      "summary": "Conformance levels (such as A and AA) and what they imply for audits.",
+      "keywords": [
+        "conformance",
+        "level",
+        "aa",
+        "a",
+        "aaa",
+        "wcag"
+      ],
+      "content": "Conformance levels (such as A and AA) and what they imply for audits. conformance level aa a aaa wcag Conformance Levels Core Concepts"
+    },
+    {
+      "title": "Disability Categories",
+      "url": "core-concepts/disability-categories.html",
+      "section": "Core Concepts",
+      "summary": "Categories of disability relevant to inclusive design and testing.",
+      "keywords": [
+        "disability",
+        "categories",
+        "users",
+        "inclusive"
+      ],
+      "content": "Categories of disability relevant to inclusive design and testing. disability categories users inclusive Disability Categories Core Concepts"
+    },
+    {
+      "title": "Content Types",
+      "url": "core-concepts/content-types.html",
+      "section": "Core Concepts",
+      "summary": "Types of content you may audit or remediate: web, apps, documents, video, and more.",
+      "keywords": [
+        "content",
+        "types",
+        "web",
+        "apps",
+        "documents",
+        "video",
+        "audit"
+      ],
+      "content": "Types of content you may audit or remediate: web, apps, documents, video, and more. content types web apps documents video audit Content Types Core Concepts"
+    },
+    {
+      "title": "ARIA Basics",
+      "url": "core-concepts/aria-basics.html",
+      "section": "Core Concepts",
+      "summary": "What ARIA is, W3C, roles, states, properties, and how ARIA supports WCAG (especially Robust).",
+      "keywords": [
+        "aria",
+        "wai",
+        "w3c",
+        "roles",
+        "states",
+        "properties",
+        "screen reader",
+        "widgets"
+      ],
+      "content": "What ARIA is, W3C, roles, states, properties, and how ARIA supports WCAG (especially Robust). aria wai w3c roles states properties screen reader widgets ARIA Basics Core Concepts"
+    },
+    {
+      "title": "Native HTML vs ARIA",
+      "url": "core-concepts/native-html-vs-aria.html",
+      "section": "Core Concepts",
+      "summary": "When to prefer native HTML and when ARIA supplements behavior.",
+      "keywords": [
+        "native",
+        "html",
+        "aria",
+        "semantics",
+        "comparison"
+      ],
+      "content": "When to prefer native HTML and when ARIA supplements behavior. native html aria semantics comparison Native HTML vs ARIA Core Concepts"
+    },
+    {
+      "title": "Accessibility Specialist Role",
+      "url": "core-concepts/accessibility-specialist-role.html",
+      "section": "Core Concepts",
+      "summary": "Role expectations: audits, consultation, training, and cross-team communication.",
+      "keywords": [
+        "specialist",
+        "role",
+        "job",
+        "consultation",
+        "audit",
+        "training"
+      ],
+      "content": "Role expectations: audits, consultation, training, and cross-team communication. specialist role job consultation audit training Accessibility Specialist Role Core Concepts"
+    },
+    {
+      "title": "Workflows",
+      "url": "workflows/index.html",
+      "section": "Workflows",
+      "summary": "Section index for how accessibility work fits into audits, agile, documentation, and stakeholder work.",
+      "keywords": [
+        "workflows",
+        "process",
+        "audit",
+        "agile"
+      ],
+      "content": "Section index for how accessibility work fits into audits, agile, documentation, and stakeholder work. workflows process audit agile Workflows Workflows"
+    },
+    {
+      "title": "Audits & Remediation",
+      "url": "workflows/audits-and-remediation.html",
+      "section": "Workflows",
+      "summary": "Audit and remediation workflow notes from the site.",
+      "keywords": [
+        "audit",
+        "remediation",
+        "findings",
+        "fix"
+      ],
+      "content": "Audit and remediation workflow notes from the site. audit remediation findings fix Audits & Remediation Workflows"
+    },
+    {
+      "title": "Accessibility Testing Process",
+      "url": "workflows/accessibility-testing-process.html",
+      "section": "Workflows",
+      "summary": "Testing process steps and considerations.",
+      "keywords": [
+        "testing",
+        "process",
+        "qa",
+        "verification"
+      ],
+      "content": "Testing process steps and considerations. testing process qa verification Accessibility Testing Process Workflows"
+    },
+    {
+      "title": "Agile & Sprints",
+      "url": "workflows/agile-and-sprints.html",
+      "section": "Workflows",
+      "summary": "Accessibility work within agile teams and sprint cadence.",
+      "keywords": [
+        "agile",
+        "sprint",
+        "scrum",
+        "team"
+      ],
+      "content": "Accessibility work within agile teams and sprint cadence. agile sprint scrum team Agile & Sprints Workflows"
+    },
+    {
+      "title": "Stakeholders & Meetings",
+      "url": "workflows/stakeholders-and-meetings.html",
+      "section": "Workflows",
+      "summary": "Working with stakeholders, meetings, and communication.",
+      "keywords": [
+        "stakeholders",
+        "meetings",
+        "communication"
+      ],
+      "content": "Working with stakeholders, meetings, and communication. stakeholders meetings communication Stakeholders & Meetings Workflows"
+    },
+    {
+      "title": "Documentation & Reporting",
+      "url": "workflows/documentation-and-reporting.html",
+      "section": "Workflows",
+      "summary": "Documentation, reports, and keeping teams informed.",
+      "keywords": [
+        "documentation",
+        "reporting",
+        "reports",
+        "deliverables"
+      ],
+      "content": "Documentation, reports, and keeping teams informed. documentation reporting reports deliverables Documentation & Reporting Workflows"
+    },
+    {
+      "title": "Prioritization",
+      "url": "workflows/prioritization.html",
+      "section": "Workflows",
+      "summary": "Prioritizing accessibility issues and remediation order.",
+      "keywords": [
+        "prioritization",
+        "priority",
+        "backlog",
+        "severity"
+      ],
+      "content": "Prioritizing accessibility issues and remediation order. prioritization priority backlog severity Prioritization Workflows"
+    },
+    {
+      "title": "Training Content Creators",
+      "url": "workflows/training-content-creators.html",
+      "section": "Workflows",
+      "summary": "Training editors, authors, and content teams on accessibility.",
+      "keywords": [
+        "training",
+        "content creators",
+        "authors",
+        "editors"
+      ],
+      "content": "Training editors, authors, and content teams on accessibility. training content creators authors editors Training Content Creators Workflows"
+    },
+    {
+      "title": "Large-Scale Audits",
+      "url": "workflows/large-scale-audits.html",
+      "section": "Workflows",
+      "summary": "Notes on scaling audits across many pages or properties.",
+      "keywords": [
+        "large scale",
+        "audit",
+        "program",
+        "enterprise"
+      ],
+      "content": "Notes on scaling audits across many pages or properties. large scale audit program enterprise Large-Scale Audits Workflows"
+    },
+    {
+      "title": "First 30 / 60 / 90 Days",
+      "url": "workflows/first-30-60-90-days.html",
+      "section": "Workflows",
+      "summary": "Early priorities when starting an accessibility role.",
+      "keywords": [
+        "onboarding",
+        "30 60 90",
+        "first days",
+        "plan"
+      ],
+      "content": "Early priorities when starting an accessibility role. onboarding 30 60 90 first days plan First 30 / 60 / 90 Days Workflows"
+    },
+    {
+      "title": "Tools",
+      "url": "tools/index.html",
+      "section": "Tools",
+      "summary": "Section index for testing tools, screen readers, PDF, video, and related tooling.",
+      "keywords": [
+        "tools",
+        "testing",
+        "software"
+      ],
+      "content": "Section index for testing tools, screen readers, PDF, video, and related tooling. tools testing software Tools Tools"
+    },
+    {
+      "title": "Screen Readers & Desktop Testing",
+      "url": "tools/screen-readers.html",
+      "section": "Tools",
+      "summary": "Screen reader testing on desktop (e.g. JAWS, NVDA) as referenced on the site.",
+      "keywords": [
+        "screen reader",
+        "jaws",
+        "nvda",
+        "desktop",
+        "testing",
+        "assistive"
+      ],
+      "content": "Screen reader testing on desktop (e.g. JAWS, NVDA) as referenced on the site. screen reader jaws nvda desktop testing assistive Screen Readers & Desktop Testing Tools"
+    },
+    {
+      "title": "Mobile Accessibility Tools",
+      "url": "tools/mobile-tools.html",
+      "section": "Tools",
+      "summary": "Mobile accessibility testing tools and approaches.",
+      "keywords": [
+        "mobile",
+        "ios",
+        "android",
+        "testing",
+        "tools"
+      ],
+      "content": "Mobile accessibility testing tools and approaches. mobile ios android testing tools Mobile Accessibility Tools Tools"
+    },
+    {
+      "title": "Browser Testing Tools",
+      "url": "tools/browser-testing-tools.html",
+      "section": "Tools",
+      "summary": "Browser extensions and tools such as Lighthouse, Axe, and WAVE mentioned in study notes.",
+      "keywords": [
+        "browser",
+        "lighthouse",
+        "axe",
+        "wave",
+        "devtools",
+        "extension"
+      ],
+      "content": "Browser extensions and tools such as Lighthouse, Axe, and WAVE mentioned in study notes. browser lighthouse axe wave devtools extension Browser Testing Tools Tools"
+    },
+    {
+      "title": "PDF Tools",
+      "url": "tools/pdf-tools.html",
+      "section": "Tools",
+      "summary": "PDF accessibility tooling including Acrobat checker and remediation basics.",
+      "keywords": [
+        "pdf",
+        "acrobat",
+        "document",
+        "remediation",
+        "checker"
+      ],
+      "content": "PDF accessibility tooling including Acrobat checker and remediation basics. pdf acrobat document remediation checker PDF Tools Tools"
+    },
+    {
+      "title": "Video & Captioning Tools",
+      "url": "tools/video-tools.html",
+      "section": "Tools",
+      "summary": "Video accessibility and captioning tools.",
+      "keywords": [
+        "video",
+        "captions",
+        "captioning",
+        "media"
+      ],
+      "content": "Video accessibility and captioning tools. video captions captioning media Video & Captioning Tools Tools"
+    },
+    {
+      "title": "Analytics (see Workflows)",
+      "url": "tools/analytics-tools.html",
+      "section": "Tools",
+      "summary": "Pointer to analytics-related workflow notes on the site.",
+      "keywords": [
+        "analytics",
+        "metrics",
+        "workflows"
+      ],
+      "content": "Pointer to analytics-related workflow notes on the site. analytics metrics workflows Analytics (see Workflows) Tools"
+    },
+    {
+      "title": "Office / Document Tools",
+      "url": "tools/office-tools.html",
+      "section": "Tools",
+      "summary": "Office and document accessibility tooling.",
+      "keywords": [
+        "office",
+        "word",
+        "documents",
+        "productivity"
+      ],
+      "content": "Office and document accessibility tooling. office word documents productivity Office / Document Tools Tools"
+    },
+    {
+      "title": "Practice",
+      "url": "practice/index.html",
+      "section": "Practice",
+      "summary": "Practice section: quizzes, study questions, tutorials ideas, tours, exercises.",
+      "keywords": [
+        "practice",
+        "quizzes",
+        "study",
+        "learn"
+      ],
+      "content": "Practice section: quizzes, study questions, tutorials ideas, tours, exercises. practice quizzes study learn Practice Practice"
+    },
+    {
+      "title": "Quizzes",
+      "url": "practice/quizzes/index.html",
+      "section": "Practice",
+      "summary": "Interactive quizzes and links to topic-based checks.",
+      "keywords": [
+        "quizzes",
+        "practice",
+        "test",
+        "questions"
+      ],
+      "content": "Interactive quizzes and links to topic-based checks. quizzes practice test questions Quizzes Practice"
+    },
+    {
+      "title": "Quiz: WCAG Basics",
+      "url": "practice/quizzes/wcag-basics.html",
+      "section": "Practice",
+      "summary": "Interactive quiz on WCAG principles, criteria, and AA notes from the WCAG overview.",
+      "keywords": [
+        "quiz",
+        "wcag",
+        "pour",
+        "practice",
+        "test"
+      ],
+      "content": "Interactive quiz on WCAG principles, criteria, and AA notes from the WCAG overview. quiz wcag pour practice test Quiz: WCAG Basics Practice"
+    },
+    {
+      "title": "Quiz: ARIA Basics",
+      "url": "practice/quizzes/aria-basics.html",
+      "section": "Practice",
+      "summary": "Interactive quiz on ARIA roles, states, and properties from the ARIA basics page.",
+      "keywords": [
+        "quiz",
+        "aria",
+        "roles",
+        "practice",
+        "test"
+      ],
+      "content": "Interactive quiz on ARIA roles, states, and properties from the ARIA basics page. quiz aria roles practice test Quiz: ARIA Basics Practice"
+    },
+    {
+      "title": "Study Questions",
+      "url": "practice/quizzes/study-questions.html",
+      "section": "Practice",
+      "summary": "Open-ended study prompts from the former Learning page.",
+      "keywords": [
+        "study",
+        "questions",
+        "prep",
+        "interview"
+      ],
+      "content": "Open-ended study prompts from the former Learning page. study questions prep interview Study Questions Practice"
+    },
+    {
+      "title": "Video Tutorial Ideas",
+      "url": "practice/video-tutorials-ideas.html",
+      "section": "Practice",
+      "summary": "Ideas for future video tutorials.",
+      "keywords": [
+        "video",
+        "tutorials",
+        "ideas",
+        "training"
+      ],
+      "content": "Ideas for future video tutorials. video tutorials ideas training Video Tutorial Ideas Practice"
+    },
+    {
+      "title": "Tours",
+      "url": "practice/tours/index.html",
+      "section": "Practice",
+      "summary": "Placeholder for guided tours.",
+      "keywords": [
+        "tours",
+        "placeholder"
+      ],
+      "content": "Placeholder for guided tours. tours placeholder Tours Practice"
+    },
+    {
+      "title": "Exercises",
+      "url": "practice/exercises/index.html",
+      "section": "Practice",
+      "summary": "Placeholder for hands-on exercises.",
+      "keywords": [
+        "exercises",
+        "placeholder"
+      ],
+      "content": "Placeholder for hands-on exercises. exercises placeholder Exercises Practice"
+    },
+    {
+      "title": "Reference",
+      "url": "reference/index.html",
+      "section": "Reference",
+      "summary": "Reference section index: glossary, certifications, interview prep, templates, and notes.",
+      "keywords": [
+        "reference",
+        "glossary",
+        "certifications",
+        "templates"
+      ],
+      "content": "Reference section index: glossary, certifications, interview prep, templates, and notes. reference glossary certifications templates Reference Reference"
+    },
+    {
+      "title": "Glossary",
+      "url": "reference/glossary.html",
+      "section": "Reference",
+      "summary": "Glossary-style examples including navigation consistency and message pop-ups.",
+      "keywords": [
+        "glossary",
+        "definitions",
+        "terms",
+        "navigation",
+        "toast"
+      ],
+      "content": "Glossary-style examples including navigation consistency and message pop-ups. glossary definitions terms navigation toast Glossary Reference"
+    },
+    {
+      "title": "Certifications",
+      "url": "reference/certifications.html",
+      "section": "Reference",
+      "summary": "Certifications such as IAAP CPACC / CPWA referenced in study notes.",
+      "keywords": [
+        "certifications",
+        "iaap",
+        "cpacc",
+        "cpwa",
+        "credential",
+        "exam"
+      ],
+      "content": "Certifications such as IAAP CPACC / CPWA referenced in study notes. certifications iaap cpacc cpwa credential exam Certifications Reference"
+    },
+    {
+      "title": "Interview Prep",
+      "url": "reference/interview-prep.html",
+      "section": "Reference",
+      "summary": "Interview preparation topics for accessibility roles.",
+      "keywords": [
+        "interview",
+        "prep",
+        "job",
+        "hiring"
+      ],
+      "content": "Interview preparation topics for accessibility roles. interview prep job hiring Interview Prep Reference"
+    },
+    {
+      "title": "Skills for Specialists",
+      "url": "reference/skills-for-specialists.html",
+      "section": "Reference",
+      "summary": "Skills and competencies useful for accessibility specialists.",
+      "keywords": [
+        "skills",
+        "specialist",
+        "competencies",
+        "career"
+      ],
+      "content": "Skills and competencies useful for accessibility specialists. skills specialist competencies career Skills for Specialists Reference"
+    },
+    {
+      "title": "Templates & Frameworks",
+      "url": "reference/templates.html",
+      "section": "Reference",
+      "summary": "Templates and frameworks referenced for accessibility work.",
+      "keywords": [
+        "templates",
+        "frameworks",
+        "checklists"
+      ],
+      "content": "Templates and frameworks referenced for accessibility work. templates frameworks checklists Templates & Frameworks Reference"
+    },
+    {
+      "title": "Site Ideas",
+      "url": "reference/site-ideas.html",
+      "section": "Reference",
+      "summary": "Ideas for improving this study site.",
+      "keywords": [
+        "site",
+        "ideas",
+        "planning"
+      ],
+      "content": "Ideas for improving this study site. site ideas planning Site Ideas Reference"
+    },
+    {
+      "title": "Open Questions",
+      "url": "reference/open-questions.html",
+      "section": "Reference",
+      "summary": "Open questions and topics to revisit.",
+      "keywords": [
+        "questions",
+        "notes",
+        "todo"
+      ],
+      "content": "Open questions and topics to revisit. questions notes todo Open Questions Reference"
+    },
+    {
+      "title": "Miscellaneous Notes",
+      "url": "reference/miscellaneous-notes.html",
+      "section": "Reference",
+      "summary": "Miscellaneous reference notes.",
+      "keywords": [
+        "notes",
+        "miscellaneous"
+      ],
+      "content": "Miscellaneous reference notes. notes miscellaneous Miscellaneous Notes Reference"
+    },
+    {
+      "title": "Glossary: Content Navigation",
+      "url": "reference/glossary.html#glossary-content-navigation",
+      "section": "Reference",
+      "summary": "Glossary entry: primary menus, links, and interactive elements should stay in a predictable order and location across pages.",
+      "keywords": [
+        "glossary",
+        "navigation",
+        "menu",
+        "consistency",
+        "predictable"
+      ],
+      "content": "Glossary entry: primary menus, links, and interactive elements should stay in a predictable order and location across pages. glossary navigation menu consistency predictable Glossary: Content Navigation Reference menu links interactive elements same order location across pages cognitive memory predictable labels"
+    },
+    {
+      "title": "Glossary: Message Pop-Ups",
+      "url": "reference/glossary.html#glossary-message-popups",
+      "section": "Reference",
+      "summary": "Glossary entry: toast and pop-up messages should be perceivable, announced (e.g. live regions), readable in time, and not trap focus.",
+      "keywords": [
+        "glossary",
+        "toast",
+        "pop-up",
+        "notifications",
+        "live region",
+        "focus"
+      ],
+      "content": "Glossary entry: toast and pop-up messages should be perceivable, announced (e.g. live regions), readable in time, and not trap focus. glossary toast pop-up notifications live region focus Glossary: Message Pop-Ups Reference toast pop-up messages screen readers aria live regions dismiss focus trap time to read"
+    }
+  ]
+}

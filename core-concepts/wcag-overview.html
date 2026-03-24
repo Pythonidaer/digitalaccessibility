@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WCAG Overview | Digital Accessibility</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../newer-styles.css">
+    <link rel="stylesheet" href="../typography.apple.css">
+  </head>
+  <body data-site-path="core-concepts/wcag-overview.html" data-nav-section="core-concepts">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+        <div class="site-header__inner menu-container">
+            <a href="../index.html" class="site-logo" aria-label="Digital Accessibility home">
+                <span>Digital</span>
+                <span>Accessibility</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open main menu">
+                <span class="nav-toggle__text">Menu</span>
+            </button>
+            <nav id="primary-navigation" class="primary-nav" aria-label="Main navigation">
+            <ul class="primary-nav__list">
+                <li class="primary-nav__item"><a href="../index.html">Home</a></li>
+                <li class="primary-nav__item"><a href="index.html">Core Concepts</a></li>
+                <li class="primary-nav__item"><a href="../workflows/index.html">Workflows</a></li>
+                <li class="primary-nav__item"><a href="../tools/index.html">Tools</a></li>
+                <li class="primary-nav__item"><a href="../practice/index.html">Practice</a></li>
+                <li class="primary-nav__item"><a href="../reference/index.html">Reference</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="site-layout menu-container">
+      <div class="site-layout__grid">
+        <button type="button" class="section-nav-toggle" aria-expanded="false" aria-controls="section-nav-panel" hidden>
+          <span class="section-nav-toggle__text">Section menu</span>
+        </button>
+        <aside id="section-nav-panel" class="site-layout__sidebar" aria-label="Core Concepts">
+          <div data-section-nav-mount="" class="section-nav-mount"></div>
+        </aside>
+        <div class="site-layout__primary">
+          <div id="breadcrumb-root"></div>
+    <main id="main-content" tabindex="-1">
+    <section class="container header">
+        <div class="header-content">
+            <h1>WCAG Overview</h1>
+        </div>
+    </section>
+    <div class="container">
+        <p>Notes from the former Foundations page (four principles), the former Practice page (“Additional AA Considerations Beyond Code”), and the single “Criteria” bullet from the former Learning page.</p>
+        <section aria-labelledby="h2-wcag-principles">
+            <h2 id="h2-wcag-principles">The WCAG's Four Principles</h2>
+            <ol>
+                <li><span class="underline">Perceivable:</span> like text alternatives for images</li>
+                <li><span class="underline">Operable:</span> like keyboard navigation</li>
+                <li><span class="underline">Understandable:</span> clear language and predictable behavior
+                    <ul>
+                        <li>In this principle, content is <span class="underline">clear</span> and <span class="underline">predictable</span></li>
+                        <li>Forms should have clear instructions <span class="underline">and</span> error messages</li>
+                        <li>Navigation should be consistent</li>
+                        <li>Language should be readable</li>
+                        <li><strong>Users shouldn't be surprised by unexpected behavior</strong></li>
+                        <li><em>Ensure instructions are intuitive, interactions are consistent, and that users can easily understand what to do</em></li>
+                    </ul>
+                </li>
+                <li><span class="underline">Robust:</span> compatible with assistive technologies</li>
+            </ol>
+            <ul>
+                <li>Each principle breaks down into success criteria like color contrast or form labels</li>
+                <li>I'd be expected to audit content against these criteria</li>
+            </ul>
+        </section>
+        <section aria-labelledby="considerations-beyond-code">
+            <h2 id="considerations-beyond-code">Additional AA Considerations Beyond Code</h2>
+            <ul>
+                <li><span class="underline">Flashing Content</span> Avoid content that flashes more than three times per second to prevent seizures</li>
+                <li><span class="underline">Language of Page</span> Identify the language of the page so assitive tech can adjust accordingly</li>
+                <li><span class="underline">Error Prevention</span> For important data (i.e., legal, financial), users should have the chance to review and correct errors</li>
+                <li><span class="underline">Text Spacing</span> Users should be able to adjust line spacing without losing content or functionality
+                    <p>To allow text spacing adjustments, you ensure your site is compatible with user stylesheets or browser controls. <span class="underline">Avoid fixed height containers</span> or text that can't reflow when line height or spacing is increased.</p>
+                </li>
+            </ul>
+        </section>
+        <section aria-labelledby="h2-criteria">
+            <h2 id="h2-criteria">Criteria</h2>
+            <ul>
+                <li>Web Content Accessibility Guidelines (WCAG 2.1)</li>
+            </ul>
+        </section>
+    </div>
+    </main>
+        </div>
+      </div>
+    </div>
+    <script src="../section-nav.js" defer></script>
+    <script src="../navigation.js"></script>
+  </body>
+</html>

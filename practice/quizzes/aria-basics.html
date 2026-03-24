@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: ARIA Basics | Digital Accessibility</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../newer-styles.css">
+    <link rel="stylesheet" href="../../typography.apple.css">
+    <link rel="stylesheet" href="quizzes.css">
+  </head>
+  <body data-site-path="practice/quizzes/aria-basics.html" data-nav-section="practice">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+        <div class="site-header__inner menu-container">
+            <a href="../../index.html" class="site-logo" aria-label="Digital Accessibility home">
+                <span>Digital</span>
+                <span>Accessibility</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open main menu">
+                <span class="nav-toggle__text">Menu</span>
+            </button>
+            <nav id="primary-navigation" class="primary-nav" aria-label="Main navigation">
+            <ul class="primary-nav__list">
+                <li class="primary-nav__item"><a href="../../index.html">Home</a></li>
+                <li class="primary-nav__item"><a href="../../core-concepts/index.html">Core Concepts</a></li>
+                <li class="primary-nav__item"><a href="../../workflows/index.html">Workflows</a></li>
+                <li class="primary-nav__item"><a href="../../tools/index.html">Tools</a></li>
+                <li class="primary-nav__item"><a href="../index.html">Practice</a></li>
+                <li class="primary-nav__item"><a href="../../reference/index.html">Reference</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="site-layout menu-container">
+      <div class="site-layout__grid">
+        <button type="button" class="section-nav-toggle" aria-expanded="false" aria-controls="section-nav-panel" hidden>
+          <span class="section-nav-toggle__text">Section menu</span>
+        </button>
+        <aside id="section-nav-panel" class="site-layout__sidebar" aria-label="Practice">
+          <div data-section-nav-mount="" class="section-nav-mount"></div>
+        </aside>
+        <div class="site-layout__primary">
+          <div id="breadcrumb-root"></div>
+    <main id="main-content" tabindex="-1">
+    <section class="container header">
+        <div class="header-content">
+            <h1>Quiz: ARIA Basics</h1>
+        </div>
+    </section>
+    <div class="container">
+        <p>This quiz is based on the <a href="../../core-concepts/aria-basics.html">ARIA basics</a> page. Choose one answer per question, then use <strong>Check answer</strong> for feedback. Use <strong>Reset quiz</strong> to clear all answers and try again.</p>
+
+        <div data-quiz-root="">
+          <div class="quiz-toolbar">
+            <button type="button" class="quiz-reset-btn">Reset quiz</button>
+          </div>
+
+          <section class="quiz-question" data-quiz-correct="aria-rich"
+            data-explain-correct="The page defines ARIA as Accessible Rich Internet Applications."
+            data-explain-incorrect="This site spells out the name as Accessible Rich Internet Applications (ARIA), not the other phrases offered here.">
+            <h2 class="quiz-question__title">Question 1 of 6</h2>
+            <fieldset>
+              <legend>What does ARIA stand for on this site?</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="aria-q1" value="aria-rich"> Accessible Rich Internet Applications</label></li>
+                <li><label><input type="radio" name="aria-q1" value="aria-responsive"> Accessible Responsive Internet Applications</label></li>
+                <li><label><input type="radio" name="aria-q1" value="aria-advanced"> Advanced Rich Interface API</label></li>
+                <li><label><input type="radio" name="aria-q1" value="aria-auto"> Automated Reading Interface for Applications</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="aria-fb1" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+
+          <section class="quiz-question" data-quiz-correct="w3c"
+            data-explain-correct="The page states ARIA was created by the World Wide Web Consortium (W3C)."
+            data-explain-incorrect="This site attributes ARIA to the W3C, not the other organizations listed.">
+            <h2 class="quiz-question__title">Question 2 of 6</h2>
+            <fieldset>
+              <legend>Which organization does this site say created ARIA?</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="aria-q2" value="w3c"> World Wide Web Consortium (W3C)</label></li>
+                <li><label><input type="radio" name="aria-q2" value="ietf"> Internet Engineering Task Force (IETF)</label></li>
+                <li><label><input type="radio" name="aria-q2" value="iso"> International Organization for Standardization (ISO)</label></li>
+                <li><label><input type="radio" name="aria-q2" value="whatwg"> Web Hypertext Application Technology Working Group (WHATWG)</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="aria-fb2" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+
+          <section class="quiz-question" data-quiz-correct="true"
+            data-explain-correct="The page says ARIA helps screen readers and assistive tech understand UI that HTML alone does not describe well."
+            data-explain-incorrect="That sentence appears on this site as the purpose of ARIA, so the statement is true.">
+            <h2 class="quiz-question__title">Question 3 of 6</h2>
+            <fieldset>
+              <legend>True or false: This site states that ARIA helps screen readers and assistive tech understand UI that HTML alone does not describe well.</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="aria-q3" value="true"> True</label></li>
+                <li><label><input type="radio" name="aria-q3" value="false"> False</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="aria-fb3" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+
+          <section class="quiz-question" data-quiz-correct="state"
+            data-explain-correct="Under States, this site lists aria-expanded as an example of current condition."
+            data-explain-incorrect="aria-expanded is grouped under States on this page. Roles describe what something is; properties add extra meaning beyond that state list.">
+            <h2 class="quiz-question__title">Question 4 of 6</h2>
+            <fieldset>
+              <legend>In “What ARIA Actually Does,” aria-expanded is listed as an example of what?</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="aria-q4" value="role"> A role</label></li>
+                <li><label><input type="radio" name="aria-q4" value="state"> A state</label></li>
+                <li><label><input type="radio" name="aria-q4" value="property"> A property</label></li>
+                <li><label><input type="radio" name="aria-q4" value="criterion"> A WCAG success criterion</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="aria-fb4" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+
+          <section class="quiz-question" data-quiz-correct="role"
+            data-explain-correct="Under Roles, the page gives role=&quot;navigation&quot; as an example of telling what something is."
+            data-explain-incorrect="role=&quot;navigation&quot; appears under Roles on this site, not under States or Properties examples.">
+            <h2 class="quiz-question__title">Question 5 of 6</h2>
+            <fieldset>
+              <legend>On this site, role=&quot;navigation&quot; is given as an example of what?</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="aria-q5" value="role"> A role</label></li>
+                <li><label><input type="radio" name="aria-q5" value="state"> A state</label></li>
+                <li><label><input type="radio" name="aria-q5" value="property"> A property</label></li>
+                <li><label><input type="radio" name="aria-q5" value="principle"> A POUR principle</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="aria-fb5" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+
+          <section class="quiz-question" data-quiz-correct="true"
+            data-explain-correct="The page says that without ARIA, screen readers may not know what something is."
+            data-explain-incorrect="That line is on this site to explain why ARIA matters, so the statement is true.">
+            <h2 class="quiz-question__title">Question 6 of 6</h2>
+            <fieldset>
+              <legend>True or false: This site notes that without ARIA, screen readers may not know what something is.</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="aria-q6" value="true"> True</label></li>
+                <li><label><input type="radio" name="aria-q6" value="false"> False</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="aria-fb6" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+        </div>
+
+        <p><a href="index.html">Back to Quizzes</a></p>
+    </div>
+    </main>
+        </div>
+      </div>
+    </div>
+    <script src="../../section-nav.js" defer></script>
+    <script src="../../navigation.js"></script>
+    <script src="quiz-runner.js" defer></script>
+  </body>
+</html>

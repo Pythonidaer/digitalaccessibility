@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "build:search": "node scripts/build-search-index.mjs",
     "lint:html": "html-validate \"**/*.html\"",
     "lint:axe": "axe \"http://127.0.0.1:5500/index.html\"",
     "lint:axe:wcag": "axe \"http://127.0.0.1:5500/index.html\" --tags wcag2a,wcag2aa,wcag21a,wcag21aa,wcag22aa",
