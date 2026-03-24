@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Ideas | Digital Accessibility</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../newer-styles.css">
+    <link rel="stylesheet" href="../typography.apple.css">
+  </head>
+  <body data-site-path="reference/site-ideas.html" data-nav-section="reference">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+        <div class="site-header__inner menu-container">
+            <a href="../index.html" class="site-logo" aria-label="Digital Accessibility home">
+                <span>Digital</span>
+                <span>Accessibility</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open main menu">
+                <span class="nav-toggle__text">Menu</span>
+            </button>
+            <nav id="primary-navigation" class="primary-nav" aria-label="Main navigation">
+            <ul class="primary-nav__list">
+                <li class="primary-nav__item"><a href="../index.html">Home</a></li>
+                <li class="primary-nav__item"><a href="../core-concepts/index.html">Core Concepts</a></li>
+                <li class="primary-nav__item"><a href="../workflows/index.html">Workflows</a></li>
+                <li class="primary-nav__item"><a href="../tools/index.html">Tools</a></li>
+                <li class="primary-nav__item"><a href="../practice/index.html">Practice</a></li>
+                <li class="primary-nav__item"><a href="index.html">Reference</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="site-layout menu-container">
+      <div class="site-layout__grid">
+        <button type="button" class="section-nav-toggle" aria-expanded="false" aria-controls="section-nav-panel" hidden>
+          <span class="section-nav-toggle__text">Section menu</span>
+        </button>
+        <aside id="section-nav-panel" class="site-layout__sidebar" aria-label="Reference">
+          <div data-section-nav-mount="" class="section-nav-mount"></div>
+        </aside>
+        <div class="site-layout__primary">
+          <div id="breadcrumb-root"></div>
+    <main id="main-content" tabindex="-1">
+    <section class="container header">
+        <div class="header-content">
+            <h1>Site Ideas</h1>
+        </div>
+    </section>
+    <div class="container">
+        <p>Two lists from the former Resources page (“Ideas for this Website”) and the former Learning page (“Clear Structure Ideas”), kept as separate sections.</p>
+        <section aria-labelledby="h2-site-ideas">
+            <h2 id="h2-site-ideas">Ideas for this Website</h2>
+            <ul>
+                <li>Collect Resources and organize</li>
+                <li>Create "incorrect" samples with tutorial
+                    <ul>
+                        <li>Explore JavaScript libraries for guided tours suh as Shepard.js and Intro.js</li>
+                        <li>The above libraries allow for <span class="underline">defined steps, highlighted elements, and tooltips.</span></li>
+                        <li>I would define each section, write clear instructions, and integrate ARIA guidance into the tour</li>
+                        <li><strong>Build my pages like any normal site, then layer the tour library on top to walk users through examples.</strong></li>
+                    </ul>
+                </li>
+                <li>Create user stories for accessibility users</li>
+                <li>Create website with: forms, headings, images, &amp; buttons
+                    <ul>
+                        <li>Leave out features such as alt text, labels</li>
+                        <li>Bad semantics, low contrast, bad headings</li>
+                        <li><strong>Run WAVE or Axe on it</strong></li>
+                        <li>Practice remediating each issue they flag</li>
+                    </ul>
+                </li>
+                <li>Create a quiz component</li>
+                <li>Create downloadable checklists</li>
+                <li>Create a glossary
+                    <ul>
+                        <li>Could add tags like a blog, to filter terms by department</li>
+                    </ul>
+                </li>
+                <li>Data visualization on departments using P.O.U.R.
+                    <ul>
+                        <li>The idea here would be to segment what's most relevant to depts.</li>
+                    </ul>
+                </li>
+                <li>Site-wide search feature</li>
+                <li>Build templates for documentation (frameworks)
+                    <p>Examples include:</p>
+                    <ul>
+                        <li>Project management templates</li>
+                        <li>Accessibility reports</li>
+                    </ul>
+                </li>
+                <li>Create checklists to track my knowledge progress</li>
+                <li>Create downloadable checklists for P.O.U.R., by content type, by disability type, etc.</li>
+                <li>Create "Connect A to B" drag lists, such as for elements to P.O.U.R. principles</li>
+                <li>Add a search more to the top of each page to more easily search for information</li>
+            </ul>
+        </section>
+        <section aria-labelledby="h2-clear-structure-ideas-for-this-site">
+            <h2 id="h2-clear-structure-ideas-for-this-site">Clear Structure Ideas</h2>
+            <ul>
+                <li>Same-page tabs like on Apple's accessibility website</li>
+                <li>Rearrangement of main navigation (add subnavigation)</li>
+                <li>Add a search more to the top of each page to more easily search for information</li>
+                <li>Add a glossary to the site</li>
+                <li>Add a contact page</li>
+                <li>Add a privacy policy</li>
+                <li>Add a terms of service</li>
+                <li>Add a copyright notice</li>
+                <li>Add a site map</li>
+                <li>FAQs</li>
+                <li>On each page, lead with a brief summary so users know what to expect.</li>
+                <li>Use subheadings and collapsible sections if content is long.</li>
+                <li>Breadcrumbs</li>
+            </ul>
+        </section>
+    </div>
+    </main>
+        </div>
+      </div>
+    </div>
+    <script src="../section-nav.js" defer></script>
+    <script src="../navigation.js"></script>
+  </body>
+</html>

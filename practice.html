@@ -3,352 +3,70 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Accessibility</title>
+    <title>Workflows (archived entry) | Digital Accessibility</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="newer-styles.css">
     <link rel="stylesheet" href="typography.apple.css">
   </head>
-  <body>
+  <body data-site-path="practice.html" data-nav-section="workflows">
     <a class="skip-link" href="#main-content">Skip to main content</a>
-
     <header class="site-header">
         <div class="site-header__inner menu-container">
-            <a href="./" class="site-logo" aria-label="Digital Accessibility home">
-            <span>Digital</span>
-            <span>Accessibility</span>
+            <a href="index.html" class="site-logo" aria-label="Digital Accessibility home">
+                <span>Digital</span>
+                <span>Accessibility</span>
             </a>
-
-            <button
-            class="nav-toggle"
-            type="button"
-            aria-expanded="false"
-            aria-controls="primary-navigation"
-            aria-label="Open main menu"
-            >
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open main menu">
                 <span class="nav-toggle__text">Menu</span>
             </button>
-
-            <nav
-            id="primary-navigation"
-            class="primary-nav"
-            aria-label="Primary navigation"
-            >
+            <nav id="primary-navigation" class="primary-nav" aria-label="Main navigation">
             <ul class="primary-nav__list">
-                <li class="primary-nav__item"><a href="foundations.html">Foundations</a></li>
-                <li class="primary-nav__item"><a href="practice.html">Practice</a></li>
-                <li class="primary-nav__item"><a href="tools.html">Tools</a></li>
-                <li class="primary-nav__item"><a href="learning.html">Learning</a></li>
-                <li class="primary-nav__item"><a href="resources.html">Resources</a></li>
+                <li class="primary-nav__item"><a href="index.html">Home</a></li>
+                <li class="primary-nav__item"><a href="core-concepts/index.html">Core Concepts</a></li>
+                <li class="primary-nav__item"><a href="workflows/index.html" aria-current="page">Workflows</a></li>
+                <li class="primary-nav__item"><a href="tools/index.html">Tools</a></li>
+                <li class="primary-nav__item"><a href="practice/index.html">Practice</a></li>
+                <li class="primary-nav__item"><a href="reference/index.html">Reference</a></li>
             </ul>
             </nav>
         </div>
     </header>
+    <div class="site-layout menu-container">
+      <div class="site-layout__grid">
+        <button type="button" class="section-nav-toggle" aria-expanded="false" aria-controls="section-nav-panel" hidden>
+          <span class="section-nav-toggle__text">Section menu</span>
+        </button>
+        <aside id="section-nav-panel" class="site-layout__sidebar" aria-label="Workflows">
+          <div data-section-nav-mount="" class="section-nav-mount"></div>
+        </aside>
+        <div class="site-layout__primary">
+          <div id="breadcrumb-root"></div>
+    <main id="main-content" tabindex="-1">
     <section class="container header">
         <div class="header-content">
-            <h1>Digital Accessibility Specialist</h1>
+            <h1>Practice page filename (temporary)</h1>
         </div>
     </section>
-    <main id="main-content" class="container">
-        <section aria-labelledby="h2-tasks">
-            <h2 id="h2-tasks">Tasks</h2>
-            <ul>
-                <li>Find and fix barriers in websites</li>
-                <li>Contribute to ongoing accessibility processes
-                    <ul>
-                        <li>Improving workflows or policies</li>
-                    </ul>
-                </li>
-                <li>Build sustainable practices
-                    <ul>
-                        <li>So accessibility is always considered</li>
-                    </ul>
-                </li>
-                <li>
-                    Develop documentation, guidelines, and other resources
-                    <ul>
-                        <li>i.e., checklists, short guides on key accessibility tasks</li>
-                        <li>Record quick tutorials or live demos for remote settings</li>
-                        <li>So that others follow best practices long-term</li>
-                        <li>This ensures knowledge transfer after contract</li>
-                    </ul>
-                </li>
-                <li>Provide direct consultation &amp; support:
-                    <ul>
-                        <li>Host Q &amp; A sessions to clarify doubts (screen sharing, digital resources)</li>
-                        <li>Answer questions from faculty, developers, or content creators</li>
-                    </ul>
-                </li>
-                <li>Train faculty &amp; staff
-                    <ul>
-                        <li>Collaborate with IT, faculty, &amp; content creators
-                            <ul>
-                                <li>To prevent, not fix later</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>Review of the following (but not limited to):
-                    <ul>
-                        <li>Keyboard navigation</li>
-                        <li>Color Contrast</li>
-                        <li>Image alt text (even in PDFs!)</li>
-                        <li>Logical tab focus order (i.e., HTML semantics, even on apps!)
-                            <ul>
-                                <li>Don't forget to check for interactive elements</li>
-                                <li>Proper reading order</li>
-                                <li>Correct heading structure</li>
-                            </ul>
-                        </li>
-                        <li>Tagged elements (i.e., PDFs)</li>
-                        <li>Labeled form fields (fix missing labels on form fields)</li>
-                        <li>Focus states (e.g., outline)</li>
-                        <li>Aria-Roles (supplements semantic HTML's limitations)
-                            <ul>
-                                <li>Ensure their usage is appropriate</li>
-                            </ul>
-                        </li>
-                        <li>Error messages (ensure these are announced by assistive tech)</li>
-                        <li>Acrobat forms</li>
-                    </ul>
-                </li>
-                <li>Correct application of ARIA attributes:
-                    <ul>
-                        <li>There are roughly 50-60 core ARIA roles</li>
-                        <li>Breakdown: ARIA attributes include <span class="underline">roles</span> (like "button" or "dialog"), <span class="underline">states</span> (like "aria-checked"), and <span class="underline">properties</span> (like aria-label).</li>
-                        <li>In total, there are about 50-60 standardized ones. Examples include <em>"aria-labelledby", "aria-hidden", and "role=navigation"</em>.</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-what-to-prioritize-in-your-first-90-days">
-            <h2 id="h2-what-to-prioritize-in-your-first-90-days">What to prioritize in your first 90 days?</h2>
-            <h3>As a Digital Accessibility Specialist, you should prioritize the following:</h3>
-            <ul>
-                <li>First days:
-                    <ul>
-                        <li>Secure access to necessary systems (analytics, content repositories)</li>
-                        <li>Meet key stakeholders (IT, content creators, legal)</li>
-                    </ul>
-                </li>
-                <li>Early weeks:
-                    <ul>
-                        <li>assess current policies</li>
-                        <li>identify any obvious compliance gaps</li>
-                        <li>start small&mdash;auditing a sample of content to grasp the scope</li>
-                    </ul>
-                </li>
-                <li>By one month:
-                    <ul>
-                        <li>Prioritize based on impact (high-traffic, legally critical items)</li>
-                        <li>Establish quick wins (caption a key video, fix a core page)</li>
-                        <li>Outline a road map</li>
-                    </ul>
-                </li>
-                <li>By ninety days:
-                    <ul>
-                        <li><strong>Build relationships so departments know who to ask, ensuring long-term efficiency</strong></li>
-                        <li>Document recurring workflows&mdash;ongoing audits, team training, and remediation schedule</li>
-                        <li>&amp; integrate accessibility checks into the development cycle</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-audience-list">
-            <h2 id="h2-audience-list">Audience Lists</h2>
-            <h3>These categories help tailor information for specialists.</h3>
-            <p>Specialists need deep standards, creators need practical guides, &amp; leadership needs summaries.</p>
-            <ul>
-                <li><strong>Specialists/Practioners:</strong>
-                    <ul>
-                        <li>Digital Accessibility Specialists</li>
-                        <li>Web Accessibility Managers</li>
-                        <li>UX Designers</li>
-                        <li>Compliance Officers</li>
-                        <li>This group needs in-depth standards, polices, and audit tools</li>
-                    </ul>
-                </li>
-                <li><strong>Content Creators:</strong>
-                    <ul>
-                        <li>Faculty</li>
-                        <li>Staff</li>
-                        <li>Editors</li>
-                        <li>These individuals need practical guidelines on accessible documents, vieos, and web content.</li>
-                    </ul>
-                </li>
-                <li><strong>Developers/IT:</strong>
-                    <ul>
-                        <li>Software Engineers</li>
-                        <li>IT staff</li>
-                        <li>This group needs coding standards (ARIA, W.C.A.G. integration) and testing procedures.</li>
-                    </ul>
-                </li>
-                <li><strong>Leadership/Legal:</strong>
-                    <ul>
-                        <li>Adminstrators</li>
-                        <li>Legal Counsel</li>
-                        <li>These stakeholders need high-level policy summaries, risk assessments, and progress reports.</li>
-                    </ul>
-                </li>
-                <li><strong>Users with Disabilities:</strong>
-                    <ul>
-                        <li>End users with vision, hearing, cognitive, motor disabilities</li>
-                        <li>While not internal, keep them in mind for feedback, usability testing, and ensuring content meets their needs</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-processes">
-            <h2 id="h2-processes">Processes</h2>
-            <ul>
-                <li>Adding accessibility reviews (prior to published content)
-                    <ul>
-                        <li>Implement by setting up checkpoints &amp; tracking sessions</li>
-                    </ul>
-                </li>
-                <li>Usage of scanning tools and manual fixes across each content type</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-roles-and-departments">
-            <h2 id="h2-roles-and-departments">Roles and Departments</h2>
-            <p>Roles and departments vary based on the organization. They are typically:</p>
-            <ul>
-                <li><strong>Content Editors and faculty</strong> focus on document and media accessibility (like alt text and captions).</li>
-                <li><strong>IT</strong> often ensure systems (like Content Management Systems) support accessibility features.</li>
-                <li><strong>Software Engineers</strong> handle the code-level compliance (such as ARIA attributes).</li>
-                <li><strong>Digital Accessibility Speciailists</strong> may bridge all these, guiding testing and remediation.</li>
-            </ul>
-            <p>For presenting information, you can segment by role&mdash;give editors practical guides on media, engineers technical criteria, and IT and specialists broader standards. Each team plays its part.</p>
-            <p>See <a href="https://www.mspcc.org/content-accessibility/">mspcc.org</a> for more information.</p>
-        </section>
-
-        <section aria-labelledby="h2-mental-modal">
-            <h2 id="h2-mental-modal">Quick Mental Modal</h2>
-            <ul>
-                <li><strong>HTML</strong> = built-in accessibility</li>
-                <li><strong>ARIA</strong> = patch for custom/dynamic UI</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="considerations-beyond-code">
-            <h2 id="considerations-beyond-code">Additional AA Considerations Beyond Code</h2>
-            <ul>
-                <li><span class="underline">Flashing Content</span> Avoid content that flashes more than three times per second to prevent seizures</li>
-                <li><span class="underline">Language of Page</span> Identify the language of the page so assitive tech can adjust accordingly</li>
-                <li><span class="underline">Error Prevention</span> For important data (i.e., legal, financial), users should have the chance to review and correct errors</li>
-                <li><span class="underline">Text Spacing</span> Users should be able to adjust line spacing without losing content or functionality
-                    <p>To allow text spacing adjustments, you ensure your site is compatible with user stylesheets or browser controls. <span class="underline">Avoid fixed height containers</span> or text that can't reflow when line height or spacing is increased.</p>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-meetings">
-            <h2 id="h2-meetings">Meetings</h2>
-            <ul>
-                <li>Planning (join with IT)</li>
-                <li>Integrate accessibility checks into development sprints</li>
-                <li>Run workshops (with faculty)
-                    <ul>
-                        <li>i.e., on accessible course materials</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-documentation">
-            <h2 id="h2-documentation">Documentation</h2>
-            <ul>
-                <li>Write clear, step-by-step guides
-                    <ul>
-                        <li>Often in HTML, PDF, or internal wikis cover accessibility standards</li>
-                    </ul>
-                </li>
-                <li>Great for practical demos:
-                    <ul>
-                        <li>PowerPoints (slides)</li>
-                        <li>Short videos (e.g., "how to fix a PDF tag")</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-Frameworks">
-            <h2 id="h2-Frameworks">Frameworks</h2>
-            <h3>Same for guidelines, online resources, progress reports, and documentation</h3>
-            <ul>
-                <li>Integrating accessibility into agile
-                    <ul>
-                        <li>Accessibility user stories or Acceptance Criteria</li>
-                    </ul>
-                </li>
-                <li>Accessibility reports
-                    <ul>
-                        <li>W3C org provides sample accessibility audit templates</li>
-                    </ul>
-                </li>
-                <li>General Project Management templates
-                    <ul>
-                        <li>Status summaries</li>
-                        <li>Key issues</li>
-                        <li>Next steps</li>
-                        <li>Timelines</li>
-                    </ul>
-                </li>
-                <li>Government Digital Service (GDS) or accessibility consultancies</li>
-            </ul>
-        </section>
-
-        <section aria-labelledby="h2-usage-of-visual-cues">
-            <h2 id="h2-usage-of-visual-cues">Usage of Visual Cues</h2>
-            <ul>
-                <li>Icons ("Note" like a lightbulb)</li>
-                <li>Inline badges
-                    <ul>
-                        <li>Example: "Warning" icon (like a triangle)&mdash;#FF8C00 (dark amber)</li>
-                        <li>Example: "Key info" icon (like a star)&mdash;#0050A0 (deep blue)</li>
-                        <li>Example: "Success"&mdash;#008000 (rich green)</li>
-                    </ul>
-                </li>
-                <li>Use accessible SVG icons
-                    <ul>
-                        <li>Font Awesome (free resource with icons like note, alert, and info symbols)</li>
-                        <li>Free CDN (link in HTML)</li>
-                        <li>Add Icons directly with classes</li>
-                        <li>For accessible emphasis colors, use strong contrast</li>
-                        <li>Use recognizable cues</li>
-                    </ul>
-                </li>
-                <li>Ensure proper color contrast</li>
-            </ul>
-            <ol>
-                <li>Choose a set</li>
-                <li>Discuss styling after</li>
-            </ol>
-        </section>
-
-        <section aria-labelledby="h2-multi-modal-content">
-            <h2 id="h2-multi-modal-content">Multi-Modal Content</h2>
-            <p>You can offer options:</p>
-            <ul>
-                <li>Summarize key text and add a video tutorial or audio file.</li>
-                <li>You can use tools like text-to-speech APIs to offer audio
-                    <ul>
-                        <li>(i.e., Amazon Polly, Google Cloud Text-to-Speech)</li>
-                    </ul>
-                </li>
-                <li>Structure each page with the main content, then offer a "Watch", "Listen", or "Read More" option
-                    <ul>
-                        <li>That way, users can pick their preferred medium</li>
-                        <li>Consistency &amp; user choice are key</li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
+    <div class="container">
+        <p>This URL used to hold workflow-style notes. That content now lives under <strong>Workflows</strong>. The top navigation item “Practice” points to applied study material.</p>
+        <p><a href="workflows/index.html">Workflows — section index</a></p>
+        <ul>
+            <li><a href="workflows/audits-and-remediation.html">Audits &amp; Remediation</a></li>
+            <li><a href="workflows/accessibility-testing-process.html">Accessibility Testing Process</a></li>
+            <li><a href="workflows/agile-and-sprints.html">Agile &amp; Sprints</a></li>
+            <li><a href="workflows/stakeholders-and-meetings.html">Stakeholders &amp; Meetings</a></li>
+            <li><a href="workflows/documentation-and-reporting.html">Documentation &amp; Reporting</a></li>
+            <li><a href="workflows/prioritization.html">Prioritization</a></li>
+            <li><a href="workflows/training-content-creators.html">Training Content Creators</a></li>
+            <li><a href="workflows/large-scale-audits.html">Large-Scale Audits</a></li>
+            <li><a href="workflows/first-30-60-90-days.html">First 30 / 60 / 90 Days</a></li>
+        </ul>
+    </div>
     </main>
-    <script src="line-length-checker.js"></script>
-     <script src="navigation.js"></script>
+        </div>
+      </div>
+    </div>
+    <script src="section-nav.js" defer></script>
+    <script src="navigation.js"></script>
   </body>
 </html>

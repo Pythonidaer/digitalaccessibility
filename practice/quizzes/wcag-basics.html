@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz: WCAG Basics | Digital Accessibility</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../../newer-styles.css">
+    <link rel="stylesheet" href="../../typography.apple.css">
+    <link rel="stylesheet" href="quizzes.css">
+  </head>
+  <body data-site-path="practice/quizzes/wcag-basics.html" data-nav-section="practice">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+        <div class="site-header__inner menu-container">
+            <a href="../../index.html" class="site-logo" aria-label="Digital Accessibility home">
+                <span>Digital</span>
+                <span>Accessibility</span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open main menu">
+                <span class="nav-toggle__text">Menu</span>
+            </button>
+            <nav id="primary-navigation" class="primary-nav" aria-label="Main navigation">
+            <ul class="primary-nav__list">
+                <li class="primary-nav__item"><a href="../../index.html">Home</a></li>
+                <li class="primary-nav__item"><a href="../../core-concepts/index.html">Core Concepts</a></li>
+                <li class="primary-nav__item"><a href="../../workflows/index.html">Workflows</a></li>
+                <li class="primary-nav__item"><a href="../../tools/index.html">Tools</a></li>
+                <li class="primary-nav__item"><a href="../index.html">Practice</a></li>
+                <li class="primary-nav__item"><a href="../../reference/index.html">Reference</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="site-layout menu-container">
+      <div class="site-layout__grid">
+        <button type="button" class="section-nav-toggle" aria-expanded="false" aria-controls="section-nav-panel" hidden>
+          <span class="section-nav-toggle__text">Section menu</span>
+        </button>
+        <aside id="section-nav-panel" class="site-layout__sidebar" aria-label="Practice">
+          <div data-section-nav-mount="" class="section-nav-mount"></div>
+        </aside>
+        <div class="site-layout__primary">
+          <div id="breadcrumb-root"></div>
+    <main id="main-content" tabindex="-1">
+    <section class="container header">
+        <div class="header-content">
+            <h1>Quiz: WCAG Basics</h1>
+        </div>
+    </section>
+    <div class="container">
+        <p>This quiz is based on the <a href="../../core-concepts/wcag-overview.html">WCAG overview</a> page. Choose one answer per question, then use <strong>Check answer</strong> for feedback. Use <strong>Reset quiz</strong> to clear all answers and try again.</p>
+
+        <div data-quiz-root="">
+          <div class="quiz-toolbar">
+            <button type="button" class="quiz-reset-btn">Reset quiz</button>
+          </div>
+
+          <section class="quiz-question" data-quiz-correct="operable"
+            data-explain-correct="The overview pairs keyboard navigation with the Operable principle, alongside Perceivable, Understandable, and Robust."
+            data-explain-incorrect="Keyboard navigation is about how people operate the interface, which this site places under Operable—not only seeing content (Perceivable), understanding it (Understandable), or AT compatibility (Robust).">
+            <h2 class="quiz-question__title">Question 1 of 6</h2>
+            <fieldset>
+              <legend>Which WCAG principle does this site associate with keyboard navigation?</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="wcag-q1" value="perceivable"> Perceivable</label></li>
+                <li><label><input type="radio" name="wcag-q1" value="operable"> Operable</label></li>
+                <li><label><input type="radio" name="wcag-q1" value="understandable"> Understandable</label></li>
+                <li><label><input type="radio" name="wcag-q1" value="robust"> Robust</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="wcag-fb1" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+
+          <section class="quiz-question" data-quiz-correct="robust"
+            data-explain-correct="The overview describes Robust as compatibility with assistive technologies."
+            data-explain-incorrect="Assistive technology compatibility is how the site defines Robust. Perceivable focuses on sensing content; Operable on interaction; Understandable on clarity and predictability.">
+            <h2 class="quiz-question__title">Question 2 of 6</h2>
+            <fieldset>
+              <legend>Which principle does this site describe as being about compatibility with assistive technologies?</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="wcag-q2" value="perceivable"> Perceivable</label></li>
+                <li><label><input type="radio" name="wcag-q2" value="operable"> Operable</label></li>
+                <li><label><input type="radio" name="wcag-q2" value="understandable"> Understandable</label></li>
+                <li><label><input type="radio" name="wcag-q2" value="robust"> Robust</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="wcag-fb2" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+
+          <section class="quiz-question" data-quiz-correct="understandable"
+            data-explain-correct="The overview groups clear language, predictable behavior, consistent navigation, readable language, and clear forms under Understandable."
+            data-explain-incorrect="Those ideas are how this site explains Understandable. Operable covers interaction like keyboard use; Perceivable covers sensing content; Robust covers working with assistive tech.">
+            <h2 class="quiz-question__title">Question 3 of 6</h2>
+            <fieldset>
+              <legend>Which principle does this site tie to clear language, predictable behavior, consistent navigation, and readable language?</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="wcag-q3" value="perceivable"> Perceivable</label></li>
+                <li><label><input type="radio" name="wcag-q3" value="operable"> Operable</label></li>
+                <li><label><input type="radio" name="wcag-q3" value="understandable"> Understandable</label></li>
+                <li><label><input type="radio" name="wcag-q3" value="robust"> Robust</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="wcag-fb3" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+
+          <section class="quiz-question" data-quiz-correct="true"
+            data-explain-correct="The overview states that each principle breaks down into success criteria such as color contrast or form labels."
+            data-explain-incorrect="The site explicitly says principles break into success criteria like color contrast and form labels, so the statement is true.">
+            <h2 class="quiz-question__title">Question 4 of 6</h2>
+            <fieldset>
+              <legend>True or false: On this site, each WCAG principle breaks down into success criteria such as color contrast or form labels.</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="wcag-q4" value="true"> True</label></li>
+                <li><label><input type="radio" name="wcag-q4" value="false"> False</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="wcag-fb4" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+
+          <section class="quiz-question" data-quiz-correct="true"
+            data-explain-correct="Under Additional AA Considerations, the site says to avoid content that flashes more than three times per second to prevent seizures."
+            data-explain-incorrect="The AA notes on this page call out flashing limits (more than three times per second) as content to avoid, so the statement is true.">
+            <h2 class="quiz-question__title">Question 5 of 6</h2>
+            <fieldset>
+              <legend>True or false: The site’s AA notes recommend avoiding content that flashes more than three times per second.</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="wcag-q5" value="true"> True</label></li>
+                <li><label><input type="radio" name="wcag-q5" value="false"> False</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="wcag-fb5" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+
+          <section class="quiz-question" data-quiz-correct="wcag21"
+            data-explain-correct="The Criteria section lists Web Content Accessibility Guidelines (WCAG 2.1)."
+            data-explain-incorrect="This site’s criteria bullet names WCAG 2.1, not another version number.">
+            <h2 class="quiz-question__title">Question 6 of 6</h2>
+            <fieldset>
+              <legend>Which WCAG version does this site list under “Criteria”?</legend>
+              <ul class="quiz-options">
+                <li><label><input type="radio" name="wcag-q6" value="wcag10"> WCAG 1.0</label></li>
+                <li><label><input type="radio" name="wcag-q6" value="wcag20"> WCAG 2.0</label></li>
+                <li><label><input type="radio" name="wcag-q6" value="wcag21"> WCAG 2.1</label></li>
+                <li><label><input type="radio" name="wcag-q6" value="wcag30"> WCAG 3.0</label></li>
+              </ul>
+              <p><button type="button" class="quiz-check-btn">Check answer</button></p>
+            </fieldset>
+            <div class="quiz-feedback" id="wcag-fb6" hidden tabindex="-1" aria-live="polite">
+              <p class="quiz-feedback__body"></p>
+            </div>
+          </section>
+        </div>
+
+        <p><a href="index.html">Back to Quizzes</a></p>
+    </div>
+    </main>
+        </div>
+      </div>
+    </div>
+    <script src="../../section-nav.js" defer></script>
+    <script src="../../navigation.js"></script>
+    <script src="quiz-runner.js" defer></script>
+  </body>
+</html>
