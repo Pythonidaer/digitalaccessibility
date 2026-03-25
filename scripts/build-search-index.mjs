@@ -15,7 +15,7 @@ const pages = [
     title: 'Home',
     section: 'Home',
     summary:
-      'Overview of this Digital Accessibility Specialist study site: core concepts, workflows, tools, practice, and reference.',
+      'Overview of this Digital Accessibility study site: core concepts, workflows, tools, practice, and reference.',
     keywords: [
       'home',
       'specialist',
@@ -235,7 +235,7 @@ const pages = [
     path: 'practice/index.html',
     title: 'Practice',
     section: 'Practice',
-    summary: 'Practice section: quizzes, study questions, tutorials ideas, tours, exercises.',
+    summary: 'Practice section: quizzes, study questions, tutorials ideas, and tours.',
     keywords: ['practice', 'quizzes', 'study', 'learn'],
   },
   {
@@ -279,13 +279,6 @@ const pages = [
     section: 'Practice',
     summary: 'Placeholder for guided tours.',
     keywords: ['tours', 'placeholder'],
-  },
-  {
-    path: 'practice/exercises/index.html',
-    title: 'Exercises',
-    section: 'Practice',
-    summary: 'Placeholder for hands-on exercises.',
-    keywords: ['exercises', 'placeholder'],
   },
   {
     path: 'reference/index.html',
