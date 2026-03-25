@@ -1,4 +1,4 @@
-## Digital Accessibility Specialist role
+## Digital Accessibility
 
 I created this project for a job I'm applying for.
 
@@ -194,4 +194,52 @@ Real-world digital accessibility work typically spans all of these contexts: web
    `https://m3.material.io/foundations/overview/principles`  
    Google’s high-level accessibility principles in Material Design 3, explaining how to bake accessibility into layout, color, components, and interactions across platforms. \[[source](https://m3.material.io/foundations/overview/principles)\]
 
+---
+
+## For Cursor Agents
+
+This section summarizes how the static site is structured and how to extend it without fighting existing patterns.
+
+### Content focus
+
+Copy across the site has been shifted away from framing everything around a single job title (e.g. “specialist”) and toward **digital accessibility** as the primary subject. When adding or editing pages, keep that tone unless the page is explicitly about roles or careers.
+
+### Priorities: accessibility, then UX
+
+1. **Accessibility** — Semantic HTML first, native controls where possible, logical headings, landmarks, keyboard operability, visible focus, and restrained ARIA. Do not rely on color alone for meaning. Prefer patterns already used on quiz pages (`fieldset`/`legend`, real labels, live regions used sparingly).
+2. **UX** — Clear hierarchy, readable spacing, and predictable behavior come after accessible structure. Avoid flashy or game-like UI; match existing typography and layout.
+
+### Styles and consistency (including devices)
+
+- **Global styles**: `styles.css`, `newer-styles.css` (layout, header, nav, breadcrumbs, section sidebar, focus tokens such as `--focus-color`), and `typography.apple.css`.
+- **Section-specific or feature CSS**: Only when needed (e.g. `practice/quizzes/quizzes.css`, `search.css` for the search results page).
+- **Responsive behavior**: Header uses a mobile toggle and collapsible primary nav; section navigation uses a viewport-aware toggle in `newer-styles.css`. New UI should respect these breakpoints and not assume hover-only interaction.
+- **Consistency** — Reuse existing classes and variables; keep spacing, link styling, and button patterns aligned with pages in `core-concepts/`, `workflows/`, etc.
+
+### Page navigation architecture
+
+- **Primary navigation** — Repeated in each HTML file: logo, `#primary-navigation` with `.primary-nav__list`, and (via `navigation.js`) a **Search** link appended as the last item, pointing to root-relative `search.html` using the same depth rules as other root links.
+- **`navigation.js`** — Mobile menu toggle for `#primary-navigation` only; also injects the Search nav item (no inline search field in the header).
+- **`section-nav.js`** — Single source of truth for **section sidebars** and **breadcrumbs**:
+  - Each page should set `data-site-path` (e.g. `core-concepts/aria-basics.html`) and `data-nav-section` (`core-concepts` | `workflows` | `tools` | `practice` | `reference` | empty for pages without a section menu).
+  - Root `index.html` typically omits `data-site-path` or uses `index.html` where section-nav intentionally skips init.
+  - The script mounts into `#breadcrumb-root` and `[data-section-nav-mount]` inside `#section-nav-panel`; empty `data-nav-section` hides the section sidebar and toggle.
+- **Layout shell** — Inner pages use `.site-layout` > `.site-layout__grid` > sidebar + `.site-layout__primary` > `main#main-content` with `tabindex="-1"` for skip-link targeting.
+- **Skip link** — Present on pages; targets `#main-content`.
+
+When adding a new page: copy an existing page in the same folder depth, update `data-site-path` / `data-nav-section`, add the page to **`section-nav.js`** `SECTIONS[...].pages`, and add or regenerate the search index entry (see below).
+
+### Search index and client-side search architecture
+
+The site uses **static, client-side search** suitable for GitHub Pages (no backend).
+
+| Piece | Role |
+|--------|------|
+| **`data/search-index.json`** | Built artifact: array of entries with `title`, `url` (root-relative, may include `#fragment`), `section`, `summary`, `keywords[]`, and `content` (flattened text for matching). |
+| **`scripts/build-search-index.mjs`** | **Source of truth** for index *content*: edit page metadata here, then run `npm run build:search` to regenerate the JSON. |
+| **`search.html`** | Dedicated results page: GET `search.html?q=…` (bookmarkable). Full accessible search form lives here only. |
+| **`search.js`** | Loaded only on `search.html`: fetches `data/search-index.json` (path prefixed from `data-site-path` depth), normalizes the query, scores matches (title/keywords/summary/content), renders an ordered result list, updates a polite live region for status. |
+| **`navigation.js`** | Does **not** implement search logic; only adds the **Search** link in the primary nav. |
+
+Do **not** change the JSON schema casually: `search.js` expects `entries` and the fields above. After adding/removing indexed pages, update **`build-search-index.mjs`** and run **`npm run build:search`**.
 

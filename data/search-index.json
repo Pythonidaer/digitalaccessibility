@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "generated": "2026-03-24",
+  "generated": "2026-03-25",
   "entries": [
     {
       "title": "Home",
       "url": "index.html",
       "section": "Home",
-      "summary": "Overview of this Digital Accessibility Specialist study site: core concepts, workflows, tools, practice, and reference.",
+      "summary": "Overview of this Digital Accessibility study site: core concepts, workflows, tools, practice, and reference.",
       "keywords": [
         "home",
         "specialist",
@@ -16,7 +16,7 @@
         "toc",
         "contents"
       ],
-      "content": "Overview of this Digital Accessibility Specialist study site: core concepts, workflows, tools, practice, and reference. home specialist overview accessibility study toc contents Home Home"
+      "content": "Overview of this Digital Accessibility study site: core concepts, workflows, tools, practice, and reference. home specialist overview accessibility study toc contents Home Home"
     },
     {
       "title": "Core Concepts",
@@ -424,14 +424,14 @@
       "title": "Practice",
       "url": "practice/index.html",
       "section": "Practice",
-      "summary": "Practice section: quizzes, study questions, tutorials ideas, tours, exercises.",
+      "summary": "Practice section: quizzes, study questions, tutorials ideas, and tours.",
       "keywords": [
         "practice",
         "quizzes",
         "study",
         "learn"
       ],
-      "content": "Practice section: quizzes, study questions, tutorials ideas, tours, exercises. practice quizzes study learn Practice Practice"
+      "content": "Practice section: quizzes, study questions, tutorials ideas, and tours. practice quizzes study learn Practice Practice"
     },
     {
       "title": "Quizzes",
@@ -510,17 +510,6 @@
         "placeholder"
       ],
       "content": "Placeholder for guided tours. tours placeholder Tours Practice"
-    },
-    {
-      "title": "Exercises",
-      "url": "practice/exercises/index.html",
-      "section": "Practice",
-      "summary": "Placeholder for hands-on exercises.",
-      "keywords": [
-        "exercises",
-        "placeholder"
-      ],
-      "content": "Placeholder for hands-on exercises. exercises placeholder Exercises Practice"
     },
     {
       "title": "Reference",

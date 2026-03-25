@@ -63,7 +63,6 @@
         { path: 'practice/quizzes/study-questions.html', title: 'Study Questions' },
         { path: 'practice/video-tutorials-ideas.html', title: 'Video Tutorial Ideas' },
         { path: 'practice/tours/index.html', title: 'Tours' },
-        { path: 'practice/exercises/index.html', title: 'Exercises' },
       ],
     },
     reference: {
