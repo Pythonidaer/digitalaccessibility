@@ -69,3 +69,13 @@ main section h3 {
   }
 }
 
+/* Long-form rhythm: direct sibling paragraphs under main .container (page header + body). Matches home intro and inner pages; nav/breadcrumbs use other wrappers. */
+main .container p + p {
+  margin-top: 1rem;
+}
+
+main .container h2 + p,
+main .container h3 + p {
+  margin-top: 0.25rem;
+}
+

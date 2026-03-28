@@ -51,65 +51,101 @@
     <main id="main-content" tabindex="-1">
     <section class="container header">
         <div class="header-content">
-            <h1>Digital Accessibility</h1>
+            <h1>Digital Accessibility Overview</h1>
         </div>
     </section>
-    <section class="container">
-        <p>This website's content on Digital Accessibility is a work of progress. The following information is available on Specialist roles pertaining to the field. Subjects include information about basics of the role, job responsibilities, accessibility 101, and various learning resources.</p>
-        <nav class="toc-main" aria-labelledby="toc-heading">
-            <h2 id="toc-heading">Table of Contents</h2>
-            <ul class="toc-section">
-              <li>
-                <strong><a href="core-concepts/index.html">Core Concepts</a></strong>
-                <ul>
-                  <li>Overview</li>
-                  <li>WCAG Principles</li>
-                  <li>Scope</li>
-                  <li>Content Types</li>
-                </ul>
-              </li>
-              <li>
-                <strong><a href="workflows/index.html">Workflows</a></strong>
-                <ul>
-                  <li>Tasks</li>
-                  <li>Processes</li>
-                  <li>Meetings</li>
-                  <li>Documentation</li>
-                  <li>Frameworks</li>
-                </ul>
-              </li>
-              <li>
-                <strong><a href="tools/index.html">Tools</a></strong>
-                <ul>
-                  <li>Platform Tools</li>
-                  <li>Testing Tools</li>
-                  <li>PDF Tools</li>
-                  <li>Video Tools</li>
-                </ul>
-              </li>
-              <li>
-                <strong><a href="practice/index.html">Practice</a></strong>
-                <ul>
-                  <li>Quizzes</li>
-                  <li>Video tutorial ideas</li>
-                  <li>Tours (placeholder)</li>
-                </ul>
-              </li>
-              <li>
-                <strong><a href="reference/index.html">Reference</a></strong>
-                <ul>
-                  <li>Site Ideas</li>
-                  <li>Open Questions</li>
-                  <li>Glossary</li>
-                  <li>Certifications, interview prep, skills, templates</li>
-                </ul>
-              </li>
+    <div class="container home-landing">
+        <p>This site is a learning and reference hub for digital accessibility. It includes core concepts, workflows, tools, and more.</p>
+
+        <nav class="home-page-toc" aria-label="On this page">
+            <ul class="home-page-toc__list">
+                <li><a href="#how-to-use-heading">How this site is organized</a></li>
+                <li><a href="#accessibility-context-heading">Accessibility in context</a></li>
+                <li><a href="#what-is-heading">What is digital accessibility?</a></li>
+                <li><a href="#wcag-heading">W.C.A.G. at a glance</a></li>
+                <li><a href="#specialist-heading">The Digital Accessibility Specialist role</a></li>
+                <li><a href="#sections-heading">Explore the site</a></li>
             </ul>
-            <p>Older filenames (<code>foundations.html</code>, <code>practice.html</code>, <code>tools.html</code>, <code>learning.html</code>, <code>resources.html</code>) still resolve and point forward to these sections.</p>
-          </nav>
-    </section>
+        </nav>
+
+        <section class="home-landing__section" aria-labelledby="how-to-use-heading">
+            <h2 id="how-to-use-heading">How this site is organized</h2>
+            <p>Content is grouped into five areas available from the main navigation. Core Concepts covers definitions, guidelines, laws, ARIA, and the accessibility specialist role, while Workflows explains how accessibility fits into audits, testing, agile delivery, and stakeholder collaboration.</p>
+            <p>Tools lists testing and remediation tooling, Practice includes quizzes and study material, and Reference collects glossary entries, certifications, templates, and other lookup pages.</p>
+        </section>
+
+        <section class="home-landing__section" aria-labelledby="accessibility-context-heading">
+            <h2 id="accessibility-context-heading">Accessibility in context</h2>
+            <p>Accessibility is about making environments, products, and services usable by people with a wide range of abilities. This includes physical spaces such as buildings and transportation, as well as the systems people rely on in daily life.</p>
+
+            <p>In the United States, the <a href="https://www.ada.gov/" target="_blank" rel="noopener noreferrer">Americans with Disabilities Act (ADA)</a>, passed in 1990, established broad protections against disability discrimination in public and commercial settings. These expectations apply to many aspects of everyday life, including access to services and information.</p>
+            
+            <p>Later, <a href="https://www.section508.gov/manage/laws-and-policies/" target="_blank" rel="noopener noreferrer">Section 508 of the Rehabilitation Act</a>, updated in 1998, introduced more specific requirements for accessible electronic and information technology within U.S. federal agencies. As more services moved online, these expectations expanded into digital experiences such as websites, applications, documents, and media. For a fuller comparison, see <a href="/core-concepts/laws.html">Laws (ADA, Section 508)</a>.</p>
+            <p>As digital systems became central to everyday life, these expectations extended beyond physical spaces to websites, applications, documents, and media. Increased legal scrutiny and lawsuits related to inaccessible digital experiences have further accelerated awareness and adoption in recent years. For examples, see <a href="core-concepts/laws.html#h2-violations">Violations</a>.</p>
+        </section>
+
+        <section class="home-landing__section" aria-labelledby="what-is-heading">
+            <h2 id="what-is-heading">What is digital accessibility?</h2>
+            <p>Digital accessibility focuses on making websites, applications, documents, and media usable by people with a wide range of abilities, including sensory, motor, and cognitive differences.</p>
+            <p>Work in this area often involves readable content, semantic structure, compatibility with assistive technologies such as screen readers, and—when needed—explicit semantics through patterns such as ARIA.</p>
+            <p>Accessibility efforts are rarely isolated tasks. They typically involve ongoing collaboration across design, engineering, and content, with the goal of improving usability over time rather than addressing issues only once.</p>
+            <p>More detail and deeper explanations are available on the <a href="core-concepts/what-is-digital-accessibility.html">What Is Digital Accessibility</a> page.</p>
+        </section>
+
+        <section class="home-landing__section" aria-labelledby="wcag-heading">
+            <h2 id="wcag-heading">W.C.A.G. at a glance</h2>
+            <p>Digital accessibility on the web is commonly evaluated using the <a href="https://www.w3.org/WAI/standards-guidelines/wcag/" target="_blank" rel="noopener noreferrer">Web Content Accessibility Guidelines (W.C.A.G.)</a>, developed by the World Wide Web Consortium (W3C).</p>
+            <p>W.C.A.G. provides a shared framework for accessible content, organized into principles and testable success criteria. These are often referenced in policy at Level A or AA, depending on the required level of support.</p>
+            <p>At a high level, W.C.A.G. is structured around principles that ensure content is <a href="https://www.w3.org/WAI/WCAG22/Understanding/intro#understanding-the-four-principles-of-accessibility" target="_blank" rel="noopener noreferrer">perceivable, operable, understandable, and robust</a>. These principles guide how accessibility is evaluated across different types of content and interaction patterns.</p>
+            <p>For detailed explanations, examples, and conformance levels, see the <a href="core-concepts/wcag-overview.html">W.C.A.G. Overview</a> page.</p>
+        </section>
+
+        <section class="home-landing__section" aria-labelledby="specialist-heading">
+            <h2 id="specialist-heading">The Digital Accessibility Specialist role</h2>
+            <p>In practice, accessibility work is often guided by roles such as Digital Accessibility Specialists.</p>
+            <p>These specialists typically collaborate with design, engineering, and content teams to integrate accessibility into delivery. Responsibilities include interpreting guidelines, auditing interfaces and documents against W.C.A.G., identifying issues, suggesting remediation, and validating fixes using tools and assistive technologies.</p>
+            <p>Day-to-day work may also involve improving readability, supporting content teams, and documenting findings for stakeholders. The role focuses on enabling teams to build accessible systems, rather than owning all accessibility work directly.</p>
+            <p><a href="core-concepts/accessibility-specialist-role.html">Read more about the Accessibility Specialist Role</a>, including skills and interview preparation.</p>
+        </section>
+
+        <section class="home-landing__section" aria-labelledby="sections-heading">
+            <h2 id="sections-heading">Explore the site</h2>
+            <ul class="home-section-cards">
+                <li>
+                    <article class="home-section-card">
+                        <h3 class="home-section-card__title"><a href="core-concepts/index.html">Core Concepts</a></h3>
+                        <p class="home-section-card__desc">Foundations: what accessibility is, W.C.A.G., laws, disability and content types, ARIA, and the specialist role.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="home-section-card">
+                        <h3 class="home-section-card__title"><a href="workflows/index.html">Workflows</a></h3>
+                        <p class="home-section-card__desc">How accessibility work fits into audits, testing, agile delivery, stakeholders, documentation, and prioritization.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="home-section-card">
+                        <h3 class="home-section-card__title"><a href="tools/index.html">Tools</a></h3>
+                        <p class="home-section-card__desc">Screen readers, browser and mobile tools, PDFs, video and captions, and related utilities.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="home-section-card">
+                        <h3 class="home-section-card__title"><a href="practice/index.html">Practice</a></h3>
+                        <p class="home-section-card__desc">Quizzes, study questions, and ideas for hands-on learning.</p>
+                    </article>
+                </li>
+                <li>
+                    <article class="home-section-card">
+                        <h3 class="home-section-card__title"><a href="reference/index.html">Reference</a></h3>
+                        <p class="home-section-card__desc">Glossary, certifications, templates, site notes, open questions, and miscellaneous reference material.</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+    </div>
     </main>
-    <!-- <script src="line-length-checker.js"></script> -->
+    <script src="line-length-checker.js"></script>
      <script src="navigation.js"></script>
   </body>
 </html>

@@ -15,44 +15,47 @@ const pages = [
     title: 'Home',
     section: 'Home',
     summary:
-      'Overview of this Digital Accessibility study site: core concepts, workflows, tools, practice, and reference.',
+      'Landing page: site purpose, how sections are organized, accessibility and W.C.A.G. context, specialist role overview, and links into Core Concepts, Workflows, Tools, Practice, and Reference.',
     keywords: [
       'home',
       'specialist',
       'overview',
       'accessibility',
       'study',
-      'toc',
-      'contents',
+      'orientation',
+      'wcag',
+      'ada',
+      'section 508',
     ],
   },
   {
     path: 'core-concepts/index.html',
     title: 'Core Concepts',
     section: 'Core Concepts',
-    summary: 'Section index for foundations: accessibility basics, WCAG, laws, ARIA, and the specialist role.',
+    summary: 'Section index for foundations: accessibility basics, W.C.A.G., laws, ARIA, and the specialist role.',
     keywords: ['core concepts', 'foundations', 'basics', 'wcag', 'overview'],
   },
   {
     path: 'core-concepts/what-is-digital-accessibility.html',
     title: 'What Is Digital Accessibility',
     section: 'Core Concepts',
-    summary: 'Introductory notes on what digital accessibility means in practice.',
-    keywords: ['accessibility', 'definition', 'introduction', 'digital'],
+    summary:
+      'Companion page: overview outline with links to home, W.C.A.G., laws, disability categories, and ARIA; main intro text is on the home page.',
+    keywords: ['accessibility', 'definition', 'introduction', 'digital', 'overview'],
   },
   {
     path: 'core-concepts/wcag-overview.html',
-    title: 'WCAG Overview',
+    title: 'W.C.A.G. Overview',
     section: 'Core Concepts',
     summary:
-      'WCAG four principles (Perceivable, Operable, Understandable, Robust), success criteria, AA considerations, and WCAG 2.1.',
+      'W.C.A.G. four principles (Perceivable, Operable, Understandable, Robust), success criteria, AA considerations, and W.C.A.G. 2.1.',
     keywords: ['wcag', 'pour', 'principles', 'perceivable', 'operable', 'understandable', 'robust', 'criteria', '2.1', 'aa'],
   },
   {
     path: 'core-concepts/pour-principles.html',
     title: 'POUR Principles',
     section: 'Core Concepts',
-    summary: 'Notes on the POUR framework aligned with WCAG principles.',
+    summary: 'Notes on the POUR framework aligned with W.C.A.G. principles.',
     keywords: ['pour', 'wcag', 'principles', 'perceivable', 'operable'],
   },
   {
@@ -88,22 +91,23 @@ const pages = [
     title: 'ARIA Basics',
     section: 'Core Concepts',
     summary:
-      'What ARIA is, W3C, roles, states, properties, and how ARIA supports WCAG (especially Robust).',
-    keywords: ['aria', 'wai', 'w3c', 'roles', 'states', 'properties', 'screen reader', 'widgets'],
+      'What ARIA is, native HTML first, W3C, roles, states, properties, and how ARIA supports W.C.A.G. (especially Robust).',
+    keywords: ['aria', 'wai', 'w3c', 'roles', 'states', 'properties', 'screen reader', 'widgets', 'native html'],
   },
   {
     path: 'core-concepts/native-html-vs-aria.html',
-    title: 'Native HTML vs ARIA',
+    title: 'Native HTML vs ARIA (stub)',
     section: 'Core Concepts',
-    summary: 'When to prefer native HTML and when ARIA supplements behavior.',
-    keywords: ['native', 'html', 'aria', 'semantics', 'comparison'],
+    summary: 'Stub: content merged into ARIA Basics under Native HTML first.',
+    keywords: ['native', 'html', 'aria', 'semantics', 'redirect', 'stub'],
   },
   {
     path: 'core-concepts/accessibility-specialist-role.html',
     title: 'Accessibility Specialist Role',
     section: 'Core Concepts',
-    summary: 'Role expectations: audits, consultation, training, and cross-team communication.',
-    keywords: ['specialist', 'role', 'job', 'consultation', 'audit', 'training'],
+    summary:
+      'Scope, qualifications, skills for specialists (critical thinking, organization, technical, documentation, flexibility), and interview preparation notes.',
+    keywords: ['specialist', 'role', 'job', 'consultation', 'audit', 'training', 'skills', 'interview'],
   },
   {
     path: 'workflows/index.html',
@@ -247,9 +251,9 @@ const pages = [
   },
   {
     path: 'practice/quizzes/wcag-basics.html',
-    title: 'Quiz: WCAG Basics',
+    title: 'Quiz: W.C.A.G. Basics',
     section: 'Practice',
-    summary: 'Interactive quiz on WCAG principles, criteria, and AA notes from the WCAG overview.',
+    summary: 'Interactive quiz on W.C.A.G. principles, criteria, and AA notes from the W.C.A.G. overview.',
     keywords: ['quiz', 'wcag', 'pour', 'practice', 'test'],
   },
   {
@@ -284,7 +288,8 @@ const pages = [
     path: 'reference/index.html',
     title: 'Reference',
     section: 'Reference',
-    summary: 'Reference section index: glossary, certifications, interview prep, templates, and notes.',
+    summary:
+      'Reference section index: glossary, certifications, templates, and notes; interview and skills point to Accessibility Specialist Role.',
     keywords: ['reference', 'glossary', 'certifications', 'templates'],
   },
   {
@@ -303,17 +308,17 @@ const pages = [
   },
   {
     path: 'reference/interview-prep.html',
-    title: 'Interview Prep',
+    title: 'Interview Prep (stub)',
     section: 'Reference',
-    summary: 'Interview preparation topics for accessibility roles.',
-    keywords: ['interview', 'prep', 'job', 'hiring'],
+    summary: 'Stub: content moved to Core Concepts — Accessibility Specialist Role (Interview preparation).',
+    keywords: ['interview', 'prep', 'job', 'hiring', 'stub'],
   },
   {
     path: 'reference/skills-for-specialists.html',
-    title: 'Skills for Specialists',
+    title: 'Skills for Specialists (stub)',
     section: 'Reference',
-    summary: 'Skills and competencies useful for accessibility specialists.',
-    keywords: ['skills', 'specialist', 'competencies', 'career'],
+    summary: 'Stub: content moved to Core Concepts — Accessibility Specialist Role (Skills for specialists).',
+    keywords: ['skills', 'specialist', 'competencies', 'career', 'stub'],
   },
   {
     path: 'reference/templates.html',
