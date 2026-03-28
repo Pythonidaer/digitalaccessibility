@@ -407,3 +407,68 @@
        margin-top: 0;
      }
    }
+
+   /* Homepage landing layout */
+   .home-landing__section {
+     margin-top: 1.75rem;
+   }
+
+   .home-section-cards {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: grid;
+     gap: 1rem;
+     grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+   }
+
+   .home-section-card {
+     border: 1px solid var(--header-border);
+     border-radius: 0.35rem;
+     padding: 1rem 1.15rem;
+     height: 100%;
+     background: #fafafa;
+   }
+
+   .home-section-card__title {
+     margin: 0 0 0.5rem;
+     font-size: 1.1rem;
+     line-height: 1.3;
+   }
+
+   .home-section-card__title a {
+     color: inherit;
+     text-decoration: underline;
+     text-underline-offset: 0.12em;
+   }
+
+   .home-section-card__title a:hover,
+   .home-section-card__title a:focus-visible {
+     text-decoration-thickness: 2px;
+   }
+
+   .home-section-card__desc {
+     margin: 0;
+     font-size: 0.95rem;
+     line-height: 1.45;
+   }
+
+   /* Home page: single “on this page” list (under main div.container, not inside section). */
+   .home-page-toc {
+     margin: 1rem 0 1.5rem;
+   }
+
+   .home-page-toc__list {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+   }
+
+   .home-page-toc__list li {
+     margin: 0.25rem 0;
+   }
+
+   .home-page-toc__list a {
+     text-decoration: underline;
+     text-underline-offset: 0.12em;
+   }

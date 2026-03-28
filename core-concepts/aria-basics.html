@@ -48,7 +48,8 @@
         </div>
     </section>
     <div class="container">
-        <p>Notes from the former Foundations page: the four ARIA-related sections grouped on one page.</p>
+        <p>Notes from the former Foundations page: the ARIA-related sections grouped on one page.</p>
+        <p>They also include “native HTML first” content from the former Native HTML vs ARIA page.</p>
         <section aria-labelledby="h2-what-is-aria">
             <h2 id="h2-what-is-aria">What is ARIA?</h2>
             <ul>
@@ -59,6 +60,23 @@
                         <li>Supports W.C.A.G., mainly <strong>Perceivable, Operable, &amp; Robust</strong></li>
                     </ul>
                 </li>
+            </ul>
+        </section>
+        <section aria-labelledby="h2-native-first" id="native-html-first">
+            <h2 id="h2-native-first">Native HTML first</h2>
+            <p>Prefer native elements and semantics before reaching for ARIA. The examples and mental model below were consolidated from the former Native HTML vs ARIA page.</p>
+            <ul>
+                <li>Use native HTML first. Only use ARIA when you have to.
+                    <ul>
+                        <li>Example (bad): <code>&lt;div role="button"&gt;Click&lt;/div&gt;</code></li>
+                        <li>Example (better): <code>&lt;button&gt;Click&lt;/button&gt;</code></li>
+                    </ul>
+                </li>
+            </ul>
+            <h3 id="h2-mental-modal">Quick mental model</h3>
+            <ul>
+                <li><strong>HTML</strong> = built-in accessibility</li>
+                <li><strong>ARIA</strong> = patch for custom/dynamic UI</li>
             </ul>
         </section>
         <section aria-labelledby="h2-what-is-aria-for">

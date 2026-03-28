@@ -6,23 +6,25 @@
       "title": "Home",
       "url": "index.html",
       "section": "Home",
-      "summary": "Overview of this Digital Accessibility study site: core concepts, workflows, tools, practice, and reference.",
+      "summary": "Landing page: site purpose, how sections are organized, accessibility and W.C.A.G. context, specialist role overview, and links into Core Concepts, Workflows, Tools, Practice, and Reference.",
       "keywords": [
         "home",
         "specialist",
         "overview",
         "accessibility",
         "study",
-        "toc",
-        "contents"
+        "orientation",
+        "wcag",
+        "ada",
+        "section 508"
       ],
-      "content": "Overview of this Digital Accessibility study site: core concepts, workflows, tools, practice, and reference. home specialist overview accessibility study toc contents Home Home"
+      "content": "Landing page: site purpose, how sections are organized, accessibility and W.C.A.G. context, specialist role overview, and links into Core Concepts, Workflows, Tools, Practice, and Reference. home specialist overview accessibility study orientation wcag ada section 508 Home Home"
     },
     {
       "title": "Core Concepts",
       "url": "core-concepts/index.html",
       "section": "Core Concepts",
-      "summary": "Section index for foundations: accessibility basics, WCAG, laws, ARIA, and the specialist role.",
+      "summary": "Section index for foundations: accessibility basics, W.C.A.G., laws, ARIA, and the specialist role.",
       "keywords": [
         "core concepts",
         "foundations",
@@ -30,26 +32,27 @@
         "wcag",
         "overview"
       ],
-      "content": "Section index for foundations: accessibility basics, WCAG, laws, ARIA, and the specialist role. core concepts foundations basics wcag overview Core Concepts Core Concepts"
+      "content": "Section index for foundations: accessibility basics, W.C.A.G., laws, ARIA, and the specialist role. core concepts foundations basics wcag overview Core Concepts Core Concepts"
     },
     {
       "title": "What Is Digital Accessibility",
       "url": "core-concepts/what-is-digital-accessibility.html",
       "section": "Core Concepts",
-      "summary": "Introductory notes on what digital accessibility means in practice.",
+      "summary": "Companion page: overview outline with links to home, W.C.A.G., laws, disability categories, and ARIA; main intro text is on the home page.",
       "keywords": [
         "accessibility",
         "definition",
         "introduction",
-        "digital"
+        "digital",
+        "overview"
       ],
-      "content": "Introductory notes on what digital accessibility means in practice. accessibility definition introduction digital What Is Digital Accessibility Core Concepts"
+      "content": "Companion page: overview outline with links to home, W.C.A.G., laws, disability categories, and ARIA; main intro text is on the home page. accessibility definition introduction digital overview What Is Digital Accessibility Core Concepts"
     },
     {
-      "title": "WCAG Overview",
+      "title": "W.C.A.G. Overview",
       "url": "core-concepts/wcag-overview.html",
       "section": "Core Concepts",
-      "summary": "WCAG four principles (Perceivable, Operable, Understandable, Robust), success criteria, AA considerations, and WCAG 2.1.",
+      "summary": "W.C.A.G. four principles (Perceivable, Operable, Understandable, Robust), success criteria, AA considerations, and W.C.A.G. 2.1.",
       "keywords": [
         "wcag",
         "pour",
@@ -62,13 +65,13 @@
         "2.1",
         "aa"
       ],
-      "content": "WCAG four principles (Perceivable, Operable, Understandable, Robust), success criteria, AA considerations, and WCAG 2.1. wcag pour principles perceivable operable understandable robust criteria 2.1 aa WCAG Overview Core Concepts"
+      "content": "W.C.A.G. four principles (Perceivable, Operable, Understandable, Robust), success criteria, AA considerations, and W.C.A.G. 2.1. wcag pour principles perceivable operable understandable robust criteria 2.1 aa W.C.A.G. Overview Core Concepts"
     },
     {
       "title": "POUR Principles",
       "url": "core-concepts/pour-principles.html",
       "section": "Core Concepts",
-      "summary": "Notes on the POUR framework aligned with WCAG principles.",
+      "summary": "Notes on the POUR framework aligned with W.C.A.G. principles.",
       "keywords": [
         "pour",
         "wcag",
@@ -76,7 +79,7 @@
         "perceivable",
         "operable"
       ],
-      "content": "Notes on the POUR framework aligned with WCAG principles. pour wcag principles perceivable operable POUR Principles Core Concepts"
+      "content": "Notes on the POUR framework aligned with W.C.A.G. principles. pour wcag principles perceivable operable POUR Principles Core Concepts"
     },
     {
       "title": "Laws (ADA, Section 508)",
@@ -141,7 +144,7 @@
       "title": "ARIA Basics",
       "url": "core-concepts/aria-basics.html",
       "section": "Core Concepts",
-      "summary": "What ARIA is, W3C, roles, states, properties, and how ARIA supports WCAG (especially Robust).",
+      "summary": "What ARIA is, native HTML first, W3C, roles, states, properties, and how ARIA supports W.C.A.G. (especially Robust).",
       "keywords": [
         "aria",
         "wai",
@@ -150,38 +153,42 @@
         "states",
         "properties",
         "screen reader",
-        "widgets"
+        "widgets",
+        "native html"
       ],
-      "content": "What ARIA is, W3C, roles, states, properties, and how ARIA supports WCAG (especially Robust). aria wai w3c roles states properties screen reader widgets ARIA Basics Core Concepts"
+      "content": "What ARIA is, native HTML first, W3C, roles, states, properties, and how ARIA supports W.C.A.G. (especially Robust). aria wai w3c roles states properties screen reader widgets native html ARIA Basics Core Concepts"
     },
     {
-      "title": "Native HTML vs ARIA",
+      "title": "Native HTML vs ARIA (stub)",
       "url": "core-concepts/native-html-vs-aria.html",
       "section": "Core Concepts",
-      "summary": "When to prefer native HTML and when ARIA supplements behavior.",
+      "summary": "Stub: content merged into ARIA Basics under Native HTML first.",
       "keywords": [
         "native",
         "html",
         "aria",
         "semantics",
-        "comparison"
+        "redirect",
+        "stub"
       ],
-      "content": "When to prefer native HTML and when ARIA supplements behavior. native html aria semantics comparison Native HTML vs ARIA Core Concepts"
+      "content": "Stub: content merged into ARIA Basics under Native HTML first. native html aria semantics redirect stub Native HTML vs ARIA (stub) Core Concepts"
     },
     {
       "title": "Accessibility Specialist Role",
       "url": "core-concepts/accessibility-specialist-role.html",
       "section": "Core Concepts",
-      "summary": "Role expectations: audits, consultation, training, and cross-team communication.",
+      "summary": "Scope, qualifications, skills for specialists (critical thinking, organization, technical, documentation, flexibility), and interview preparation notes.",
       "keywords": [
         "specialist",
         "role",
         "job",
         "consultation",
         "audit",
-        "training"
+        "training",
+        "skills",
+        "interview"
       ],
-      "content": "Role expectations: audits, consultation, training, and cross-team communication. specialist role job consultation audit training Accessibility Specialist Role Core Concepts"
+      "content": "Scope, qualifications, skills for specialists (critical thinking, organization, technical, documentation, flexibility), and interview preparation notes. specialist role job consultation audit training skills interview Accessibility Specialist Role Core Concepts"
     },
     {
       "title": "Workflows",
@@ -447,10 +454,10 @@
       "content": "Interactive quizzes and links to topic-based checks. quizzes practice test questions Quizzes Practice"
     },
     {
-      "title": "Quiz: WCAG Basics",
+      "title": "Quiz: W.C.A.G. Basics",
       "url": "practice/quizzes/wcag-basics.html",
       "section": "Practice",
-      "summary": "Interactive quiz on WCAG principles, criteria, and AA notes from the WCAG overview.",
+      "summary": "Interactive quiz on W.C.A.G. principles, criteria, and AA notes from the W.C.A.G. overview.",
       "keywords": [
         "quiz",
         "wcag",
@@ -458,7 +465,7 @@
         "practice",
         "test"
       ],
-      "content": "Interactive quiz on WCAG principles, criteria, and AA notes from the WCAG overview. quiz wcag pour practice test Quiz: WCAG Basics Practice"
+      "content": "Interactive quiz on W.C.A.G. principles, criteria, and AA notes from the W.C.A.G. overview. quiz wcag pour practice test Quiz: W.C.A.G. Basics Practice"
     },
     {
       "title": "Quiz: ARIA Basics",
@@ -515,14 +522,14 @@
       "title": "Reference",
       "url": "reference/index.html",
       "section": "Reference",
-      "summary": "Reference section index: glossary, certifications, interview prep, templates, and notes.",
+      "summary": "Reference section index: glossary, certifications, templates, and notes; interview and skills point to Accessibility Specialist Role.",
       "keywords": [
         "reference",
         "glossary",
         "certifications",
         "templates"
       ],
-      "content": "Reference section index: glossary, certifications, interview prep, templates, and notes. reference glossary certifications templates Reference Reference"
+      "content": "Reference section index: glossary, certifications, templates, and notes; interview and skills point to Accessibility Specialist Role. reference glossary certifications templates Reference Reference"
     },
     {
       "title": "Glossary",
@@ -554,30 +561,32 @@
       "content": "Certifications such as IAAP CPACC / CPWA referenced in study notes. certifications iaap cpacc cpwa credential exam Certifications Reference"
     },
     {
-      "title": "Interview Prep",
+      "title": "Interview Prep (stub)",
       "url": "reference/interview-prep.html",
       "section": "Reference",
-      "summary": "Interview preparation topics for accessibility roles.",
+      "summary": "Stub: content moved to Core Concepts — Accessibility Specialist Role (Interview preparation).",
       "keywords": [
         "interview",
         "prep",
         "job",
-        "hiring"
+        "hiring",
+        "stub"
       ],
-      "content": "Interview preparation topics for accessibility roles. interview prep job hiring Interview Prep Reference"
+      "content": "Stub: content moved to Core Concepts — Accessibility Specialist Role (Interview preparation). interview prep job hiring stub Interview Prep (stub) Reference"
     },
     {
-      "title": "Skills for Specialists",
+      "title": "Skills for Specialists (stub)",
       "url": "reference/skills-for-specialists.html",
       "section": "Reference",
-      "summary": "Skills and competencies useful for accessibility specialists.",
+      "summary": "Stub: content moved to Core Concepts — Accessibility Specialist Role (Skills for specialists).",
       "keywords": [
         "skills",
         "specialist",
         "competencies",
-        "career"
+        "career",
+        "stub"
       ],
-      "content": "Skills and competencies useful for accessibility specialists. skills specialist competencies career Skills for Specialists Reference"
+      "content": "Stub: content moved to Core Concepts — Accessibility Specialist Role (Skills for specialists). skills specialist competencies career stub Skills for Specialists (stub) Reference"
     },
     {
       "title": "Templates & Frameworks",

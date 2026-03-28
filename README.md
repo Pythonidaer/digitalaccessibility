@@ -2,7 +2,7 @@
 
 I created this project for a job I'm applying for.
 
-The project includes two main accessibility-focused tools: `html-validate` and `@axe-core/cli`. They complement each other by checking HTML semantics and 20-50% of technical accessibility needs that relate to WCAG needs.
+The project includes two main accessibility-focused tools: `html-validate` and `@axe-core/cli`. They complement each other by checking HTML semantics and 20-50% of technical accessibility needs that relate to W.C.A.G. needs.
 
 ---
 
@@ -52,7 +52,7 @@ Use this to keep your markup structurally valid and semantically sound before ru
 
 **What does it do?**
 
-`@axe-core/cli` is the command‑line interface for Deque’s `axe-core` accessibility engine. It launches a headless browser, loads a page, and runs automated accessibility checks mapped to WCAG criteria.
+`@axe-core/cli` is the command‑line interface for Deque’s `axe-core` accessibility engine. It launches a headless browser, loads a page, and runs automated accessibility checks mapped to W.C.A.G. criteria.
 
 Unlike `html-validate`, which only looks at static HTML files, `axe-core/cli` inspects the rendered page (DOM + CSS + JS) in a real browser environment.
 
@@ -89,9 +89,9 @@ The following npm scripts are currently defined:
   - Useful for a quick automated accessibility scan of the current page.
 
 - **`npm run lint:axe:wcag`**
-  - Runs axe against the same Live Server URL, but with specific WCAG tags:
+  - Runs axe against the same Live Server URL, but with specific W.C.A.G. tags:
     - `wcag2a`, `wcag2aa`, `wcag21a`, `wcag21aa`, `wcag22aa`
-  - Focuses results on rules that map to WCAG 2.x Level A/AA success criteria.
+  - Focuses results on rules that map to W.C.A.G. 2.x Level A/AA success criteria.
   - This is the main command when you want to see WCAG‑related violations.
 
 - **`npm run lint:a11y`**
@@ -112,14 +112,14 @@ The following npm scripts are currently defined:
 
    ```bash
    npm run lint:axe        # quick axe scan
-   npm run lint:axe:wcag   # WCAG-focused scan
+   npm run lint:axe:wcag  # WCAG-focused scan
    npm run lint:a11y       # html-validate + axe in one command
    ```
 
 The CLI will open a headless browser, audit the page, and print a report of violations, each with:
 
 - A description of the problem
-- Affected WCAG criteria (when applicable)
+- Affected W.C.A.G. criteria (when applicable)
 - CSS selectors / DOM locations for debugging
 
 ### Limitations
@@ -127,7 +127,7 @@ The CLI will open a headless browser, audit the page, and print a report of viol
 Both `html-validate` and `@axe-core/cli` cover the **technical, machine-detectable portion** of accessibility issues — roughly **20–50% of all potential problems**, depending on the site. They excel at:
 
 - Structural HTML and ARIA correctness (roles, attributes, nesting).
-- Detectable WCAG violations such as missing labels, missing `alt` attributes, color contrast issues in some contexts, focusable vs. non-focusable elements, etc.
+- Detectable W.C.A.G. violations such as missing labels, missing `alt` attributes, color contrast issues in some contexts, focusable vs. non-focusable elements, etc.
 
 However, **manual and content-focused testing is always required** for:
 
@@ -174,19 +174,19 @@ Real-world digital accessibility work typically spans all of these contexts: web
 
 - **axe-core default rules and tags**: see Deque’s axe-core documentation at  
   `https://dequeuniversity.com/rules/axe/`  
-  (lists all rules, their severities, and associated WCAG success criteria).
+  (lists all rules, their severities, and associated W.C.A.G. success criteria).
 - **`@axe-core/cli` usage docs**:  
   `https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli`
 - **html-validate documentation and rules**:  
   `https://html-validate.org/`  
   (rule reference at `https://html-validate.org/rules/`).
-- **differences between WCAG versions**:
+- **differences between W.C.A.G. versions**:
   `https://www.audioeye.com/lp/wcag-web-compliance/`
 - **W3C Accessibility Audit Repote Template**:
   `https://www.w3.org/WAI/test-evaluate/report-template/`
  - **W3C WAI – Designing for Web Accessibility**:  
    `https://www.w3.org/WAI/tips/designing/`  
-   High-level W3C guidance on accessible UI and visual design (contrast, spacing, headings, navigation, feedback) with direct ties to WCAG requirements. \[[source](https://www.w3.org/WAI/tips/designing/)\]
+   High-level W3C guidance on accessible UI and visual design (contrast, spacing, headings, navigation, feedback) with direct ties to W.C.A.G. requirements. \[[source](https://www.w3.org/WAI/tips/designing/)\]
  - **GOV.UK / DfE Design System – Typography**:  
    `https://design.education.gov.uk/design-system/styles/typography`  
    Opinionated, accessibility-friendly typography system (font sizes, line lengths, hierarchy) used across UK government services; a practical reference for readable, accessible text. \[[source](https://design.education.gov.uk/design-system/styles/typography)\]

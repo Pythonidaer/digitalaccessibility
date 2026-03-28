@@ -100,7 +100,8 @@ main section h3 {
     margin-bottom: 24px;
 }
 
-.container section ul,
+/* Lists in section prose; exclude layout lists (e.g. home-section-cards grid). */
+.container section ul:not(.home-section-cards),
 .container section ol {
     padding-left: 20px;
 }
